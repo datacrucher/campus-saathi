@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "ES2022"
+    ],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "types": [
+      "node"
+    ],
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "./**/*.ts",
+    "../ml/**/*.ts",
+    "../frontend/src/data/types.ts",
+    "../frontend/src/data/directory.ts",
+    "../frontend/src/data/seed.ts",
+    "../frontend/src/data/procedures.ts"
+  ]
+}

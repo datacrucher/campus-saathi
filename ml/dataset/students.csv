@@ -1,0 +1,25 @@
+id,name,preferred_name,student_number,email,programme,faculty,year,mode,fee_status,tutor
+st-2291047,Abhilash Reddy,Abhilash,2291047,a.reddy@student.northbridge.ac.uk,BSc Computer Science,Science & Engineering,Year 2,Full-time,International,Dr Helen Marsh
+st-2188093,Aisha Bello,Aisha,2188093,a.bello@student.northbridge.ac.uk,BSc Economics,Business & Law,Year 3,Full-time,International,Dr Ruth Fenwick
+st-2402218,Arjun Mehta,Arjun,2402218,a.mehta@student.northbridge.ac.uk,MSc Data Science,Science & Engineering,Postgraduate,Full-time,International,Dr Kavita Rao
+st-2166437,Callum Fraser,Callum,2166437,c.fraser@student.northbridge.ac.uk,BSc Physics,Science & Engineering,Year 4,Full-time,Home,Dr Faye Holloway
+st-2203371,Chloe Nguyen,Chloe,2203371,c.nguyen@student.northbridge.ac.uk,LLB Law,Business & Law,Year 2,Full-time,Home,Ms Joanna Pike
+st-2107765,Daniel Okonkwo,Daniel,2107765,d.okonkwo@student.northbridge.ac.uk,BSc Nursing (Adult),Health & Life Sciences,Year 3,Full-time,Home,Mrs Lorraine Tate
+st-2184412,Emily Carter,Emily,2184412,e.carter@student.northbridge.ac.uk,BA Psychology,Health & Life Sciences,Year 3,Full-time,Home,Dr Paul Grieve
+st-2195582,Freya Lindqvist,Freya,2195582,f.lindqvist@student.northbridge.ac.uk,BA Fine Art,Arts & Humanities,Year 3,Full-time,International,Ms Carla Ruiz
+st-2209926,Grace Thompson,Grace,2209926,g.thompson@student.northbridge.ac.uk,BSc Computer Science,Science & Engineering,Year 2,Full-time,Home,Dr Helen Marsh
+st-2215530,Hannah Kowalski,Hannah,2215530,h.kowalski@student.northbridge.ac.uk,BSc Biomedical Science,Health & Life Sciences,Year 2,Full-time,Home,Dr Simon Leigh
+st-2224417,Isabella Rossi,Isabella,2224417,i.rossi@student.northbridge.ac.uk,BA English Literature,Arts & Humanities,Year 2,Full-time,Home,Dr Martin Hale
+st-2408851,Jonah Fischer,Jonah,2408851,j.fischer@student.northbridge.ac.uk,MBA,Business & Law,Postgraduate,Full-time,International,Dr Ruth Fenwick
+st-2318840,Kwame Mensah,Kwame,2318840,k.mensah@student.northbridge.ac.uk,BEng Civil Engineering,Science & Engineering,Year 1,Full-time,International,Dr Faye Holloway
+st-2321147,Liam O’Brien,Liam,2321147,l.obrien@student.northbridge.ac.uk,BA Business Management,Business & Law,Year 1,Full-time,Home,Mr Gareth Byrne
+st-2233064,Megan Hughes,Megan,2233064,m.hughes@student.northbridge.ac.uk,BSc Sport & Exercise Science,Health & Life Sciences,Year 2,Full-time,Home,Dr Paul Grieve
+st-2310958,Mohammed Al-Rashid,Mo,2310958,m.alrashid@student.northbridge.ac.uk,MEng Mechanical Engineering,Science & Engineering,Year 1,Full-time,International,Prof. Anne Kirby
+st-2176658,Olivia Brennan,Olivia,2176658,o.brennan@student.northbridge.ac.uk,BSc Nursing (Mental Health),Health & Life Sciences,Year 3,Full-time,Home,Mrs Lorraine Tate
+st-2312290,Priya Sharma,Priya,2312290,p.sharma@student.northbridge.ac.uk,BSc Psychology with Criminology,Health & Life Sciences,Year 1,Full-time,Home,Dr Paul Grieve
+st-2301175,Ryan Patel,Ryan,2301175,r.patel@student.northbridge.ac.uk,BSc Pharmacology,Health & Life Sciences,Year 1,Full-time,Home,Dr Simon Leigh
+st-2296604,Sophie Williams,Sophie,2296604,s.williams@student.northbridge.ac.uk,BA History,Arts & Humanities,Year 2,Full-time,Home,Dr Martin Hale
+st-2330481,Tomás García,Tomás,2330481,t.garcia@student.northbridge.ac.uk,BArch Architecture,Arts & Humanities,Year 1,Full-time,International,Prof. Neil Crane
+st-2411302,Wei Zhang,Wei,2411302,w.zhang@student.northbridge.ac.uk,MA International Relations,Arts & Humanities,Postgraduate,Full-time,International,Dr Oliver Stanton
+st-2287719,Yusuf Demir,Yusuf,2287719,y.demir@student.northbridge.ac.uk,BSc Mathematics,Science & Engineering,Year 2,Full-time,Home,Prof. Anne Kirby
+st-2279905,Zara Hussain,Zara,2279905,z.hussain@student.northbridge.ac.uk,LLB Law,Business & Law,Year 2,Full-time,Home,Ms Joanna Pike

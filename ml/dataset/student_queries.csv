@@ -1,0 +1,135 @@
+id,text,department_id,department,category,urgency,difficulty
+Q001,"I have three exams next week and I'm really stressed, I can't sleep",counselling,Student Counselling & Wellbeing,Exam stress,Medium,standard
+Q002,Exams start on Monday and I feel completely overwhelmed with revision,counselling,Student Counselling & Wellbeing,Exam stress,Medium,standard
+Q003,I keep panicking whenever I sit down to revise for my finals,counselling,Student Counselling & Wellbeing,Exam stress,Medium,standard
+Q004,the pressure of semester exams is too much i cant cope,counselling,Student Counselling & Wellbeing,Exam stress,Medium,standard
+Q005,I freeze in exams even when I know the answers,counselling,Student Counselling & Wellbeing,Exam stress,Medium,standard
+Q006,So much revision left and only 4 days before the paper. I'm stressed out,counselling,Student Counselling & Wellbeing,Exam stress,Medium,standard
+Q007,My mind goes blank every time I think about the end sems,counselling,Student Counselling & Wellbeing,Exam stress,Medium,hard
+Q008,Mid-terms are next week and I haven't slept properly in days worrying about them,counselling,Student Counselling & Wellbeing,Exam stress,Medium,hard
+Q009,I've been feeling really anxious all the time and I don't know why,counselling,Student Counselling & Wellbeing,Anxiety and low mood,Medium,standard
+Q010,I feel lonely and homesick since I moved into halls,counselling,Student Counselling & Wellbeing,Anxiety and low mood,Medium,standard
+Q011,I've been feeling low for weeks and I've stopped going to lectures,counselling,Student Counselling & Wellbeing,Anxiety and low mood,Medium,standard
+Q012,Can I talk to someone about my mental health?,counselling,Student Counselling & Wellbeing,Anxiety and low mood,Medium,standard
+Q013,I keep crying in my room and don't want to see anyone,counselling,Student Counselling & Wellbeing,Anxiety and low mood,Medium,standard
+Q014,I think I might be depressed,counselling,Student Counselling & Wellbeing,Anxiety and low mood,Medium,standard
+Q015,I'd like to book a counselling appointment please,counselling,Student Counselling & Wellbeing,Anxiety and low mood,Low,standard
+Q016,Nothing feels fun anymore and I just stay in bed all day,counselling,Student Counselling & Wellbeing,Anxiety and low mood,Medium,hard
+Q017,I miss my family a lot and can't focus on anything here,counselling,Student Counselling & Wellbeing,Anxiety and low mood,Medium,hard
+Q018,My grandmother passed away last week and I can't concentrate,counselling,Student Counselling & Wellbeing,Bereavement,High,standard
+Q019,My father died recently and I need to go home for the funeral,counselling,Student Counselling & Wellbeing,Bereavement,High,standard
+Q020,I'm struggling with grief after losing my best friend,counselling,Student Counselling & Wellbeing,Bereavement,High,standard
+Q021,There was a death in my family and I'm finding it hard to cope with coursework,counselling,Student Counselling & Wellbeing,Bereavement,High,standard
+Q022,I lost my mum a month ago and I'm falling apart,counselling,Student Counselling & Wellbeing,Bereavement,High,hard
+Q023,I don't want to be here anymore,counselling,Student Counselling & Wellbeing,Urgent wellbeing concern,High,standard
+Q024,I've been having thoughts of self-harm,counselling,Student Counselling & Wellbeing,Urgent wellbeing concern,High,standard
+Q025,Sometimes I think about ending my life,counselling,Student Counselling & Wellbeing,Urgent wellbeing concern,High,standard
+Q026,I want to hurt myself and I don't know who to tell,counselling,Student Counselling & Wellbeing,Urgent wellbeing concern,High,standard
+Q027,I feel like everyone would be better off without me,counselling,Student Counselling & Wellbeing,Urgent wellbeing concern,High,hard
+Q028,Someone followed me from the library to my hostel last night,security,Campus Security & Safety,Personal safety,High,standard
+Q029,My bike was stolen from outside the engineering block,security,Campus Security & Safety,Personal safety,High,standard
+Q030,A guy in my class keeps harassing me with messages,security,Campus Security & Safety,Personal safety,High,standard
+Q031,I feel unsafe walking back to halls after dark,security,Campus Security & Safety,Personal safety,High,standard
+Q032,I think my drink was spiked at the campus party,security,Campus Security & Safety,Personal safety,High,standard
+Q033,Someone broke into my car in the student car park,security,Campus Security & Safety,Personal safety,High,standard
+Q034,I was threatened by a group near the main gate,security,Campus Security & Safety,Personal safety,High,standard
+Q035,My laptop bag went missing from the canteen and I think someone took it,security,Campus Security & Safety,Personal safety,High,hard
+Q036,I was ill last week and need an extension for my coursework,advising,Academic Advising,Extensions,Medium,standard
+Q037,Can I get more time for my assignment? The deadline is Friday,advising,Academic Advising,Extensions,Medium,standard
+Q038,I won't be able to submit my lab report on time because of a family issue,advising,Academic Advising,Extensions,Medium,standard
+Q039,How do I apply for a coursework extension?,advising,Academic Advising,Extensions,Low,standard
+Q040,My project deadline is tomorrow and my laptop crashed and I lost everything,advising,Academic Advising,Extensions,High,hard
+Q041,Can I hand in my essay a few days late? I've had the flu,advising,Academic Advising,Extensions,Medium,hard
+Q042,I missed my exam because I was in hospital,advising,Academic Advising,Extenuating circumstances,Medium,standard
+Q043,I failed one module and don't know if I can progress to next year,advising,Academic Advising,Extenuating circumstances,Medium,standard
+Q044,How do I submit extenuating circumstances?,advising,Academic Advising,Extenuating circumstances,Medium,standard
+Q045,I want to change my course to data science,advising,Academic Advising,Extenuating circumstances,Low,standard
+Q046,I'm thinking about taking a year off my studies,advising,Academic Advising,Extenuating circumstances,Medium,hard
+Q047,When is the resit for the maths module I failed?,advising,Academic Advising,Extenuating circumstances,Medium,standard
+Q048,I need a council tax exemption letter,registry,Registry & Student Records,Letters and records,Low,standard
+Q049,Can I get an official transcript for my job application?,registry,Registry & Student Records,Letters and records,Low,standard
+Q050,My enrolment still shows as incomplete,registry,Registry & Student Records,Letters and records,Medium,standard
+Q051,I lost my student ID card,registry,Registry & Student Records,Letters and records,Low,standard
+Q052,My name is spelled wrong on my student record,registry,Registry & Student Records,Letters and records,Low,standard
+Q053,I need a bonafide certificate for my bank account,registry,Registry & Student Records,Letters and records,Low,hard
+Q054,Where do I get proof of study for my visa renewal?,registry,Registry & Student Records,Letters and records,Low,standard
+Q055,When is my graduation ceremony and how do I register?,registry,Registry & Student Records,Letters and records,Low,standard
+Q056,I paid my tuition fee but it still shows as unpaid,finance,Student Finance & Fees,Fees and payments,Medium,standard
+Q057,My student loan hasn't arrived yet and rent is due,finance,Student Finance & Fees,Fees and payments,High,standard
+Q058,Can I pay my fees in instalments?,finance,Student Finance & Fees,Fees and payments,Low,standard
+Q059,I got an invoice that looks wrong,finance,Student Finance & Fees,Fees and payments,Low,standard
+Q060,How do I get a refund after dropping a module?,finance,Student Finance & Fees,Fees and payments,Low,standard
+Q061,My sponsor hasn't been billed and I got an overdue notice,finance,Student Finance & Fees,Fees and payments,Medium,standard
+Q062,The semester fee receipt is not showing on the portal,finance,Student Finance & Fees,Fees and payments,Low,standard
+Q063,I transferred the money for this term but the college says they didn't get it,finance,Student Finance & Fees,Fees and payments,Medium,hard
+Q064,I can't afford food this week,aid,Financial Aid & Scholarships,Financial hardship,High,standard
+Q065,How do I apply for the hardship fund?,aid,Financial Aid & Scholarships,Financial hardship,Medium,standard
+Q066,Am I eligible for a scholarship?,aid,Financial Aid & Scholarships,Financial hardship,Low,standard
+Q067,When will the bursary be paid?,aid,Financial Aid & Scholarships,Financial hardship,Low,standard
+Q068,I've run out of money and my part-time job cut my hours,aid,Financial Aid & Scholarships,Financial hardship,High,standard
+Q069,Is there any grant for students from low-income families?,aid,Financial Aid & Scholarships,Financial hardship,Medium,standard
+Q070,I'm broke and can't pay rent this month,aid,Financial Aid & Scholarships,Financial hardship,High,hard
+Q071,My parents lost their jobs and I don't know how I'll continue studying,aid,Financial Aid & Scholarships,Financial hardship,High,hard
+Q072,AC is not working from the past two days,accommodation,Accommodation & Residential Life,Halls and housing,Medium,standard
+Q073,There is black mould on my bedroom wall,accommodation,Accommodation & Residential Life,Halls and housing,Medium,standard
+Q074,The heating in our flat hasn't worked for three days,accommodation,Accommodation & Residential Life,Halls and housing,High,standard
+Q075,No hot water in the hostel showers since yesterday,accommodation,Accommodation & Residential Life,Halls and housing,Medium,standard
+Q076,My roommate plays loud music every night,accommodation,Accommodation & Residential Life,Halls and housing,Low,standard
+Q077,The fan in my room is broken,accommodation,Accommodation & Residential Life,Halls and housing,Medium,standard
+Q078,There are cockroaches in the hostel kitchen,accommodation,Accommodation & Residential Life,Halls and housing,Medium,standard
+Q079,I want to change my room in the hostel,accommodation,Accommodation & Residential Life,Halls and housing,Low,standard
+Q080,The toilet in my block is blocked,accommodation,Accommodation & Residential Life,Halls and housing,Medium,standard
+Q081,The tube light keeps flickering and the plug point sparks,accommodation,Accommodation & Residential Life,Halls and housing,High,standard
+Q082,Water is leaking from the ceiling of my room,accommodation,Accommodation & Residential Life,Halls and housing,High,standard
+Q083,The door lock of my room is jammed,accommodation,Accommodation & Residential Life,Halls and housing,Medium,standard
+Q084,When will I get my accommodation deposit back?,accommodation,Accommodation & Residential Life,Halls and housing,Low,standard
+Q085,it's too hot to sleep and the cooling in our block is dead,accommodation,Accommodation & Residential Life,Halls and housing,Medium,hard
+Q086,The washing machines in the laundry don't work,accommodation,Accommodation & Residential Life,Halls and housing,Low,standard
+Q087,I can't log in to Moodle since I reset my password,it,IT Service Desk,IT and accounts,Medium,standard
+Q088,My laptop won't connect to the campus wifi,it,IT Service Desk,IT and accounts,Medium,standard
+Q089,I lost my phone and can't get past the MFA code,it,IT Service Desk,IT and accounts,High,standard
+Q090,My university email is not working,it,IT Service Desk,IT and accounts,Medium,standard
+Q091,Where can I download MATLAB for my course?,it,IT Service Desk,IT and accounts,Low,standard
+Q092,The printer in the library won't take my print credit,it,IT Service Desk,IT and accounts,Low,standard
+Q093,My account is locked out after too many attempts,it,IT Service Desk,IT and accounts,Medium,standard
+Q094,Teams keeps crashing during my online class,it,IT Service Desk,IT and accounts,Medium,standard
+Q095,eduroam keeps disconnecting on my phone,it,IT Service Desk,IT and accounts,Low,standard
+Q096,The ERP portal says invalid credentials even though I typed it right,it,IT Service Desk,IT and accounts,Medium,hard
+Q097,My laptop keyboard stopped working,it,IT Service Desk,IT and accounts,Low,standard
+Q098,I was charged a fine for a book I already returned,library,Library Services,Library,Low,standard
+Q099,How do I renew my library books?,library,Library Services,Library,Low,standard
+Q100,I can't access journal articles from home,library,Library Services,Library,Medium,standard
+Q101,Can I book a study room in the library?,library,Library Services,Library,Low,standard
+Q102,I need help with referencing for my dissertation,library,Library Services,Library,Low,standard
+Q103,The library doesn't have the article I need for my research,library,Library Services,Library,Low,standard
+Q104,My book is overdue but I'm abroad,library,Library Services,Library,Low,standard
+Q105,I need extra time in exams because of my dyslexia,disability,Disability & Accessibility Services,Adjustments and access,Medium,standard
+Q106,I have ADHD and need support in lectures,disability,Disability & Accessibility Services,Adjustments and access,Medium,standard
+Q107,I use a wheelchair and the lift in my block is broken,disability,Disability & Accessibility Services,Adjustments and access,High,standard
+Q108,My lecturers don't know about my support plan,disability,Disability & Accessibility Services,Adjustments and access,Medium,standard
+Q109,How do I apply for Disabled Students' Allowance?,disability,Disability & Accessibility Services,Adjustments and access,Low,standard
+Q110,I have a hearing impairment and can't follow recorded lectures,disability,Disability & Accessibility Services,Adjustments and access,Medium,standard
+Q111,I have a chronic condition that affects my attendance,disability,Disability & Accessibility Services,Adjustments and access,Medium,standard
+Q112,I'm autistic and find the exam hall very overwhelming,disability,Disability & Accessibility Services,Adjustments and access,Medium,hard
+Q113,My visa expires before my course ends,international,International Student Office,Visa and immigration,High,standard
+Q114,I need a CAS letter for my visa extension,international,International Student Office,Visa and immigration,Medium,standard
+Q115,I got an attendance warning email and I'm worried about my visa,international,International Student Office,Visa and immigration,High,standard
+Q116,Do I need a letter to travel home during the break?,international,International Student Office,Visa and immigration,Low,standard
+Q117,My eVisa shows the wrong details,international,International Student Office,Visa and immigration,Medium,standard
+Q118,My passport is being renewed at the embassy,international,International Student Office,Visa and immigration,Low,standard
+Q119,What happens to my immigration status if I take a year out?,international,International Student Office,Visa and immigration,Medium,standard
+Q120,Can international students work part-time and how many hours?,international,International Student Office,Visa and immigration,Low,hard
+Q121,Can someone review my CV before placement applications?,careers,Careers & Employability,Careers and placements,Low,standard
+Q122,My placement offer was withdrawn two weeks before I start,careers,Careers & Employability,Careers and placements,High,standard
+Q123,I have an interview next week and want to practise,careers,Careers & Employability,Careers and placements,Low,standard
+Q124,Are there any part-time jobs on campus?,careers,Careers & Employability,Careers and placements,Low,standard
+Q125,How do I find internships for the summer?,careers,Careers & Employability,Careers and placements,Low,standard
+Q126,Can you check my cover letter for a graduate scheme?,careers,Careers & Employability,Careers and placements,Low,standard
+Q127,When is the campus recruitment drive this year?,careers,Careers & Employability,Careers and placements,Low,hard
+Q128,I need an NOC for my internship,careers,Careers & Employability,NOC request,Medium,standard
+Q129,How do I get a no objection certificate from the college?,careers,Careers & Employability,NOC request,Medium,standard
+Q130,The company is asking for NOC from my department,careers,Careers & Employability,NOC request,Medium,standard
+Q131,I got an internship offer and need an NOC. How do I get it?,careers,Careers & Employability,NOC request,Medium,standard
+Q132,Who signs the N.O.C for summer training?,careers,Careers & Employability,NOC request,Medium,standard
+Q133,Need no-objection letter for my industrial training urgently,careers,Careers & Employability,NOC request,High,standard
+Q134,I need permission from college to do a remote internship during semester,careers,Careers & Employability,NOC request,Medium,hard

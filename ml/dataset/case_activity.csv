@@ -1,0 +1,752 @@
+case_id,at,kind,actor,text,body,internal
+SC0931,2026-08-27T19:02:00.000Z,created,Daniel Okonkwo,Request created,,0
+SC0931,2026-08-27T19:03:00.000Z,triage,Campus Saathi Triage,AI classified request,Emergency support · High urgency,0
+SC0931,2026-08-27T19:03:00.000Z,assigned,Campus Saathi Triage,Assigned to Student Funding Office,,0
+SC0931,2026-08-27T20:27:50.901Z,assigned,Queue manager,Assigned to Natalie Brooks,,0
+SC0931,2026-08-27T20:45:43.667Z,status,Natalie Brooks,Status changed from New to In Progress,,0
+SC0931,2026-08-27T20:47:43.667Z,response,Natalie Brooks,Response sent to student,"Hi Daniel, thanks for getting in touch. Please come to the Student Hub first floor today — we can issue a food voucher straight away.",0
+SC0931,2026-08-29T03:25:19.860Z,student,Daniel Okonkwo,Student replied,"Thanks, I’ve sent that over now.",0
+SC0931,2026-08-30T08:38:29.531Z,resolved,Natalie Brooks,Case resolved,Emergency food voucher and a short-term loan of £150 issued the same day.,0
+SC0932,2026-08-28T00:46:00.000Z,created,Grace Thompson,Request created,,0
+SC0932,2026-08-28T00:47:00.000Z,triage,Campus Saathi Triage,AI classified request,Low mood · Medium urgency,0
+SC0932,2026-08-28T00:47:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC0932,2026-08-28T03:31:12.892Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC0932,2026-08-28T03:43:22.471Z,status,Sarah Mitchell,Status changed from New to In Progress,,0
+SC0932,2026-08-28T03:45:22.471Z,response,Sarah Mitchell,Response sent to student,"Hi Grace, thanks for getting in touch. Would you prefer to meet in person at the Hollins Building or over Teams?",0
+SC0932,2026-08-28T03:55:22.471Z,note,Sarah Mitchell,Internal note added,Risk screen completed – no immediate risk indicated. Offer next available slot.,1
+SC0932,2026-08-28T23:40:48.299Z,student,Grace Thompson,Student replied,"Thanks, I’ve sent that over now.",0
+SC0932,2026-08-30T01:02:54.007Z,resolved,Sarah Mitchell,Case resolved,Student attended two sessions and was referred to the peer mentoring scheme. Agreed to get back in touch if things change.,0
+SC0933,2026-08-28T07:36:00.000Z,created,Olivia Brennan,Request created,,0
+SC0933,2026-08-28T07:37:00.000Z,triage,Campus Saathi Triage,AI classified request,Account access · High urgency,0
+SC0933,2026-08-28T07:37:00.000Z,assigned,Campus Saathi Triage,Assigned to IT Service Desk,,0
+SC0933,2026-08-28T09:01:44.864Z,assigned,Queue manager,Assigned to Nadia Petrova,,0
+SC0933,2026-08-28T10:03:42.701Z,status,Nadia Petrova,Status changed from New to In Progress,,0
+SC0933,2026-08-28T10:05:42.701Z,response,Nadia Petrova,Response sent to student,"Hi Olivia, thanks for getting in touch. Please confirm the phone number registered for your MFA so we can verify your identity.",0
+SC0933,2026-08-29T19:23:09.174Z,student,Olivia Brennan,Student replied,"Thanks, I’ve sent that over now.",0
+SC0933,2026-08-31T07:27:57.849Z,resolved,Nadia Petrova,Case resolved,Account unlocked and MFA re-registered. Student confirmed access to Moodle and Outlook.,0
+SC0934,2026-08-28T16:53:00.000Z,created,Kwame Mensah,Request created,,0
+SC0934,2026-08-28T16:54:00.000Z,triage,Campus Saathi Triage,AI classified request,Inter-library loans · Low urgency,0
+SC0934,2026-08-28T16:54:00.000Z,assigned,Campus Saathi Triage,Assigned to Library Customer Services,,0
+SC0934,2026-08-28T18:05:16.844Z,assigned,Queue manager,Assigned to Fiona Grant,,0
+SC0934,2026-08-28T19:07:55.538Z,status,Fiona Grant,Status changed from New to In Progress,,0
+SC0934,2026-08-28T19:09:55.538Z,response,Fiona Grant,Response sent to student,"Hi Kwame, thanks for getting in touch. Please send the full reference, including DOI if you have it.",0
+SC0934,2026-08-29T16:15:23.593Z,student,Kwame Mensah,Student replied,"Thanks, I’ve sent that over now.",0
+SC0934,2026-08-30T09:59:17.902Z,resolved,Fiona Grant,Case resolved,Article supplied via the British Library and sent to student.,0
+SC0935,2026-08-28T21:29:00.000Z,created,Emily Carter,Request created,,0
+SC0935,2026-08-28T21:30:00.000Z,triage,Campus Saathi Triage,AI classified request,Placements · High urgency,0
+SC0935,2026-08-28T21:30:00.000Z,assigned,Campus Saathi Triage,Assigned to Careers Service,,0
+SC0935,2026-08-28T23:44:09.544Z,assigned,Queue manager,Assigned to Hollie Parker,,0
+SC0935,2026-08-28T23:52:28.849Z,status,Hollie Parker,Status changed from New to In Progress,,0
+SC0935,2026-08-28T23:54:28.849Z,response,Hollie Parker,Response sent to student,"Hi Emily, thanks for getting in touch. Could you forward the email from the employer?",0
+SC0935,2026-08-29T12:52:44.662Z,student,Emily Carter,Student replied,"Thanks, I’ve sent that over now.",0
+SC0935,2026-08-30T18:45:14.088Z,resolved,Hollie Parker,Case resolved,Student matched with an alternative placement and programme transfer options explained.,0
+SC0936,2026-08-29T04:56:00.000Z,created,Hannah Kowalski,Request created,,0
+SC0936,2026-08-29T04:57:00.000Z,triage,Campus Saathi Triage,AI classified request,Enrolment · Medium urgency,0
+SC0936,2026-08-29T04:57:00.000Z,assigned,Campus Saathi Triage,Assigned to Registry Office,,0
+SC0936,2026-08-29T06:01:11.052Z,assigned,Queue manager,Assigned to Linda Hart,,0
+SC0936,2026-08-29T06:17:35.144Z,status,Linda Hart,Status changed from New to In Progress,,0
+SC0936,2026-08-29T06:19:35.144Z,response,Linda Hart,Response sent to student,"Hi Hannah, thanks for getting in touch. Could you send a screenshot of the enrolment page you’re seeing?",0
+SC0936,2026-08-30T12:19:06.719Z,student,Hannah Kowalski,Student replied,"Thanks, I’ve sent that over now.",0
+SC0936,2026-09-01T04:17:17.609Z,resolved,Linda Hart,Case resolved,Missing fee declaration completed on the student’s behalf. Enrolment now shows as complete.,0
+SC0937,2026-08-29T10:44:00.000Z,created,Jonah Fischer,Request created,,0
+SC0937,2026-08-29T10:45:00.000Z,triage,Campus Saathi Triage,AI classified request,Maintenance · Medium urgency,0
+SC0937,2026-08-29T10:45:00.000Z,assigned,Campus Saathi Triage,Assigned to Residential Life,,0
+SC0937,2026-08-29T11:09:36.109Z,assigned,Queue manager,Assigned to Joe Whitfield,,0
+SC0937,2026-08-29T11:42:04.051Z,status,Joe Whitfield,Status changed from New to In Progress,,0
+SC0937,2026-08-29T11:44:04.051Z,response,Joe Whitfield,Response sent to student,"Hi Jonah, thanks for getting in touch. Can you confirm a time we can access your room for an inspection?",0
+SC0937,2026-08-29T22:04:29.703Z,student,Jonah Fischer,Student replied,"Thanks, I’ve sent that over now.",0
+SC0937,2026-08-30T03:27:07.178Z,resolved,Joe Whitfield,Case resolved,"Inspection completed, wall treated and dehumidifier installed. Follow-up check booked in four weeks.",0
+SC0938,2026-08-29T18:43:00.000Z,created,Emily Carter,Request created,,0
+SC0938,2026-08-29T18:44:00.000Z,triage,Campus Saathi Triage,AI classified request,Bereavement · High urgency,0
+SC0938,2026-08-29T18:44:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC0938,2026-08-29T20:33:56.879Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC0938,2026-08-29T21:09:50.047Z,status,Sarah Mitchell,Status changed from New to In Progress,,0
+SC0938,2026-08-29T21:11:50.047Z,response,Sarah Mitchell,Response sent to student,"Hi Emily, thanks for getting in touch. We’re very sorry for your loss. Are you able to attend an appointment tomorrow morning?",0
+SC0938,2026-08-29T21:21:50.047Z,note,Sarah Mitchell,Internal note added,Risk screen completed – no immediate risk indicated. Offer next available slot.,1
+SC0938,2026-08-30T18:11:59.549Z,student,Emily Carter,Student replied,"Thanks, I’ve sent that over now.",0
+SC0938,2026-08-31T20:39:26.447Z,resolved,Sarah Mitchell,Case resolved,Counselling sessions arranged. Student also supported to submit extenuating circumstances with the Academic Advice Team.,0
+SC0939,2026-08-30T00:51:00.000Z,created,Daniel Okonkwo,Request created,,0
+SC0939,2026-08-30T00:52:00.000Z,triage,Campus Saathi Triage,AI classified request,Travel · Low urgency,0
+SC0939,2026-08-30T00:52:00.000Z,assigned,Campus Saathi Triage,Assigned to International Student Advice,,0
+SC0939,2026-08-30T03:07:46.076Z,assigned,Queue manager,Assigned to George Ellis,,0
+SC0939,2026-08-30T03:31:23.198Z,status,George Ellis,Status changed from New to In Progress,,0
+SC0939,2026-08-30T03:33:23.198Z,response,George Ellis,Response sent to student,"Hi Daniel, thanks for getting in touch. Can you confirm your travel dates?",0
+SC0939,2026-08-30T23:00:47.812Z,student,Daniel Okonkwo,Student replied,"Thanks, I’ve sent that over now.",0
+SC0939,2026-09-02T08:44:52.103Z,resolved,George Ellis,Case resolved,Travel dates noted on record and travel letter issued.,0
+SC0940,2026-08-30T08:18:00.000Z,created,Hannah Kowalski,Request created,,0
+SC0940,2026-08-30T08:19:00.000Z,triage,Campus Saathi Triage,AI classified request,Maintenance · High urgency,0
+SC0940,2026-08-30T08:19:00.000Z,assigned,Campus Saathi Triage,Assigned to Residential Life,,0
+SC0940,2026-08-30T09:52:44.918Z,assigned,Queue manager,Assigned to Joe Whitfield,,0
+SC0940,2026-08-30T10:25:41.133Z,status,Joe Whitfield,Status changed from New to In Progress,,0
+SC0940,2026-08-30T10:27:41.133Z,response,Joe Whitfield,Response sent to student,"Hi Hannah, thanks for getting in touch. An engineer is booked for tomorrow morning. Will someone be in to let them into the flat?",0
+SC0940,2026-08-30T18:13:59.176Z,student,Hannah Kowalski,Student replied,"Thanks, I’ve sent that over now.",0
+SC0940,2026-09-01T12:39:29.479Z,resolved,Joe Whitfield,Case resolved,Boiler part replaced. Heating restored and portable heaters collected.,0
+SC0941,2026-08-30T14:03:00.000Z,created,Freya Lindqvist,Request created,,0
+SC0941,2026-08-30T14:04:00.000Z,triage,Campus Saathi Triage,AI classified request,Exam arrangements · Medium urgency,0
+SC0941,2026-08-30T14:04:00.000Z,assigned,Campus Saathi Triage,Assigned to Disability Advice Team,,0
+SC0941,2026-08-30T16:08:56.632Z,assigned,Queue manager,Assigned to Dr Claire Ashworth,,0
+SC0941,2026-08-30T16:44:40.380Z,status,Dr Claire Ashworth,Status changed from New to In Progress,,0
+SC0941,2026-08-30T16:46:40.380Z,response,Dr Claire Ashworth,Response sent to student,"Hi Freya, thanks for getting in touch. Please upload a copy of your diagnostic assessment report.",0
+SC0941,2026-08-30T22:40:35.131Z,student,Freya Lindqvist,Student replied,"Thanks, I’ve sent that over now.",0
+SC0941,2026-09-01T03:48:08.770Z,resolved,Dr Claire Ashworth,Case resolved,"Support plan agreed: 25% extra time, use of a PC and a smaller exam room.",0
+SC0942,2026-08-30T20:55:00.000Z,created,Sophie Williams,Request created,,0
+SC0942,2026-08-30T20:56:00.000Z,triage,Campus Saathi Triage,AI classified request,Visa extensions · High urgency,0
+SC0942,2026-08-30T20:56:00.000Z,assigned,Campus Saathi Triage,Assigned to International Student Advice,,0
+SC0942,2026-08-30T23:02:50.407Z,assigned,Queue manager,Assigned to Mei Lin,,0
+SC0942,2026-08-30T23:47:47.174Z,status,Mei Lin,Status changed from New to In Progress,,0
+SC0942,2026-08-30T23:49:47.174Z,response,Mei Lin,Response sent to student,"Hi Sophie, thanks for getting in touch. Please send us a copy of your current eVisa share code.",0
+SC0942,2026-08-30T23:50:47.174Z,status,Mei Lin,Status changed from In Progress to Waiting,Waiting on student,0
+SC0943,2026-08-31T04:59:00.000Z,created,Sophie Williams,Request created,,0
+SC0943,2026-08-31T05:00:00.000Z,triage,Campus Saathi Triage,AI classified request,Letters · Low urgency,0
+SC0943,2026-08-31T05:00:00.000Z,assigned,Campus Saathi Triage,Assigned to International Student Advice,,0
+SC0943,2026-08-31T05:56:31.575Z,assigned,Queue manager,Assigned to George Ellis,,0
+SC0943,2026-08-31T06:47:15.440Z,status,George Ellis,Status changed from New to In Progress,,0
+SC0943,2026-08-31T06:49:15.440Z,response,George Ellis,Response sent to student,"Hi Sophie, thanks for getting in touch. Which bank are you applying to?",0
+SC0943,2026-08-31T13:09:27.675Z,student,Sophie Williams,Student replied,"Thanks, I’ve sent that over now.",0
+SC0943,2026-09-02T14:17:02.965Z,resolved,George Ellis,Case resolved,Bank letter generated and emailed to student.,0
+SC0944,2026-08-31T10:08:00.000Z,created,Megan Hughes,Request created,,0
+SC0944,2026-08-31T10:09:00.000Z,triage,Campus Saathi Triage,AI classified request,Anxiety · Medium urgency,0
+SC0944,2026-08-31T10:09:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC0944,2026-08-31T11:26:37.520Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC0944,2026-08-31T11:37:11.532Z,status,Sarah Mitchell,Status changed from New to In Progress,,0
+SC0944,2026-08-31T11:39:11.532Z,response,Sarah Mitchell,Response sent to student,"Hi Megan, thanks for getting in touch. Could you complete the short pre-appointment questionnaire we’ve emailed you?",0
+SC0944,2026-08-31T18:21:59.705Z,student,Megan Hughes,Student replied,"Thanks, I’ve sent that over now.",0
+SC0944,2026-09-02T08:31:55.265Z,resolved,Sarah Mitchell,Case resolved,Appointment held and coping plan agreed. Student registered for the Managing Anxiety workshop.,0
+SC0945,2026-08-31T18:15:00.000Z,created,Sophie Williams,Request created,,0
+SC0945,2026-08-31T18:16:00.000Z,triage,Campus Saathi Triage,AI classified request,Wi-Fi · Low urgency,0
+SC0945,2026-08-31T18:16:00.000Z,assigned,Campus Saathi Triage,Assigned to IT Service Desk,,0
+SC0945,2026-08-31T20:55:14.503Z,assigned,Queue manager,Assigned to Nadia Petrova,,0
+SC0945,2026-08-31T21:57:08.684Z,status,Nadia Petrova,Status changed from New to In Progress,,0
+SC0945,2026-08-31T21:59:08.684Z,response,Nadia Petrova,Response sent to student,"Hi Sophie, thanks for getting in touch. Could you tell us your laptop model and operating system?",0
+SC0945,2026-09-01T03:05:22.172Z,student,Sophie Williams,Student replied,"Thanks, I’ve sent that over now.",0
+SC0945,2026-09-01T17:03:11.085Z,resolved,Nadia Petrova,Case resolved,Old eduroam profile removed and reinstalled using the geteduroam app. Connection working.,0
+SC0946,2026-09-01T02:00:00.000Z,created,Arjun Mehta,Request created,,0
+SC0946,2026-09-01T02:01:00.000Z,triage,Campus Saathi Triage,AI classified request,Hardship Fund · High urgency,0
+SC0946,2026-09-01T02:01:00.000Z,assigned,Campus Saathi Triage,Assigned to Student Funding Office,,0
+SC0946,2026-09-01T03:39:31.571Z,assigned,Queue manager,Assigned to Natalie Brooks,,0
+SC0946,2026-09-01T04:00:13.414Z,status,Natalie Brooks,Status changed from New to In Progress,,0
+SC0946,2026-09-01T04:02:13.414Z,response,Natalie Brooks,Response sent to student,"Hi Arjun, thanks for getting in touch. Please upload your last three months of bank statements with your application.",0
+SC0946,2026-09-01T14:16:24.429Z,student,Arjun Mehta,Student replied,"Thanks, I’ve sent that over now.",0
+SC0946,2026-09-01T20:57:40.613Z,resolved,Natalie Brooks,Case resolved,Hardship award of £600 approved and paid. Student referred for budgeting support.,0
+SC0947,2026-09-01T07:08:00.000Z,created,Tomás García,Request created,,0
+SC0947,2026-09-01T07:09:00.000Z,triage,Campus Saathi Triage,AI classified request,Concern for another student · High urgency,0
+SC0947,2026-09-01T07:09:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC0947,2026-09-01T07:38:22.485Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC0947,2026-09-01T08:00:32.325Z,status,Sarah Mitchell,Status changed from New to In Progress,,0
+SC0947,2026-09-01T08:02:32.325Z,response,Sarah Mitchell,Response sent to student,"Hi Tomás, thanks for getting in touch. Thank you for letting us know. Can you confirm which hall and flat your flatmate lives in?",0
+SC0947,2026-09-01T08:12:32.325Z,note,Sarah Mitchell,Internal note added,Risk screen completed – no immediate risk indicated. Offer next available slot.,1
+SC0947,2026-09-02T17:38:43.981Z,student,Tomás García,Student replied,"Thanks, I’ve sent that over now.",0
+SC0947,2026-09-04T13:30:03.069Z,resolved,Sarah Mitchell,Case resolved,Residential Life carried out a welfare check. Student concerned has been contacted directly by the wellbeing team.,0
+SC0948,2026-09-01T15:30:00.000Z,created,Emily Carter,Request created,,0
+SC0948,2026-09-01T15:31:00.000Z,triage,Campus Saathi Triage,AI classified request,Support plans · Medium urgency,0
+SC0948,2026-09-01T15:31:00.000Z,assigned,Campus Saathi Triage,Assigned to Disability Advice Team,,0
+SC0948,2026-09-01T16:19:07.583Z,assigned,Queue manager,Assigned to Dr Claire Ashworth,,0
+SC0948,2026-09-01T17:13:40.208Z,status,Dr Claire Ashworth,Status changed from New to In Progress,,0
+SC0948,2026-09-01T17:15:40.208Z,response,Dr Claire Ashworth,Response sent to student,"Hi Emily, thanks for getting in touch. Can you tell us which modules this applies to?",0
+SC0948,2026-09-02T13:14:22.266Z,student,Emily Carter,Student replied,"Thanks, I’ve sent that over now.",0
+SC0948,2026-09-02T23:41:47.360Z,resolved,Dr Claire Ashworth,Case resolved,Support plan re-circulated to module leaders and school disability contact.,0
+SC0949,2026-09-01T21:30:00.000Z,created,Liam O’Brien,Request created,,0
+SC0949,2026-09-01T21:31:00.000Z,triage,Campus Saathi Triage,AI classified request,Incident report · Medium urgency,0
+SC0949,2026-09-01T21:31:00.000Z,assigned,Campus Saathi Triage,Assigned to Security Control Room,,0
+SC0949,2026-09-01T23:26:33.326Z,assigned,Queue manager,Assigned to Kelly Shaw,,0
+SC0949,2026-09-01T23:59:47.392Z,status,Kelly Shaw,Status changed from New to In Progress,,0
+SC0949,2026-09-02T00:01:47.392Z,response,Kelly Shaw,Response sent to student,"Hi Liam, thanks for getting in touch. Have you reported this to the police? If so, please share the crime reference number.",0
+SC0949,2026-09-03T02:30:29.584Z,student,Liam O’Brien,Student replied,"Thanks, I’ve sent that over now.",0
+SC0949,2026-09-04T01:12:39.254Z,resolved,Kelly Shaw,Case resolved,CCTV reviewed and footage passed to police. Crime reference recorded on case.,0
+SC0950,2026-09-02T03:21:00.000Z,created,Olivia Brennan,Request created,,0
+SC0950,2026-09-02T03:22:00.000Z,triage,Campus Saathi Triage,AI classified request,Refunds · Low urgency,0
+SC0950,2026-09-02T03:22:00.000Z,assigned,Campus Saathi Triage,Assigned to Fees & Income Team,,0
+SC0950,2026-09-02T04:46:49.319Z,assigned,Queue manager,Assigned to Karen Doyle,,0
+SC0950,2026-09-02T05:00:24.515Z,status,Karen Doyle,Status changed from New to In Progress,,0
+SC0950,2026-09-02T05:02:24.515Z,response,Karen Doyle,Response sent to student,"Hi Olivia, thanks for getting in touch. Please send your bank details through the secure refund form.",0
+SC0950,2026-09-02T23:38:41.065Z,student,Olivia Brennan,Student replied,"Thanks, I’ve sent that over now.",0
+SC0950,2026-09-04T10:20:49.757Z,resolved,Karen Doyle,Case resolved,Pro-rata refund of £415 processed to student’s bank account.,0
+SC0951,2026-09-02T11:27:00.000Z,created,Sophie Williams,Request created,,0
+SC0951,2026-09-02T11:28:00.000Z,triage,Campus Saathi Triage,AI classified request,Software · Low urgency,0
+SC0951,2026-09-02T11:28:00.000Z,assigned,Campus Saathi Triage,Assigned to IT Service Desk,,0
+SC0951,2026-09-02T13:30:33.902Z,assigned,Queue manager,Assigned to Ben Carlisle,,0
+SC0951,2026-09-02T14:25:17.368Z,status,Ben Carlisle,Status changed from New to In Progress,,0
+SC0951,2026-09-02T14:27:17.368Z,response,Ben Carlisle,Response sent to student,"Hi Sophie, thanks for getting in touch. Which module is the software needed for?",0
+SC0951,2026-09-02T14:37:17.368Z,note,Ben Carlisle,Internal note added,Account shows repeated failed sign-ins from the student’s own device – not a security concern.,1
+SC0951,2026-09-03T01:30:25.224Z,student,Sophie Williams,Student replied,"Thanks, I’ve sent that over now.",0
+SC0951,2026-09-03T10:04:41.183Z,resolved,Ben Carlisle,Case resolved,Licence assigned and download link sent via the Software Hub.,0
+SC0952,2026-09-02T17:48:00.000Z,created,Daniel Okonkwo,Request created,,0
+SC0952,2026-09-02T17:49:00.000Z,triage,Campus Saathi Triage,AI classified request,Module changes · Low urgency,0
+SC0952,2026-09-02T17:49:00.000Z,assigned,Campus Saathi Triage,Assigned to Academic Advice Team,,0
+SC0952,2026-09-02T20:05:43.953Z,assigned,Queue manager,Assigned to Owen Price,,0
+SC0952,2026-09-02T20:28:43.782Z,status,Owen Price,Status changed from New to In Progress,,0
+SC0952,2026-09-02T20:30:43.782Z,response,Owen Price,Response sent to student,"Hi Daniel, thanks for getting in touch. Which module would you like to move to? Please check it doesn’t clash with your timetable.",0
+SC0952,2026-09-03T13:35:32.859Z,student,Daniel Okonkwo,Student replied,"Thanks, I’ve sent that over now.",0
+SC0952,2026-09-05T20:11:33.033Z,resolved,Owen Price,Case resolved,Module change approved by programme lead and updated on the student record.,0
+SC0953,2026-09-02T23:29:00.000Z,created,Ryan Patel,Request created,,0
+SC0953,2026-09-02T23:30:00.000Z,triage,Campus Saathi Triage,AI classified request,Exam stress · Medium urgency,0
+SC0953,2026-09-02T23:30:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC0953,2026-09-03T01:11:28.087Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC0953,2026-09-03T01:31:06.114Z,status,Sarah Mitchell,Status changed from New to In Progress,,0
+SC0953,2026-09-03T01:33:06.114Z,response,Sarah Mitchell,Response sent to student,"Hi Ryan, thanks for getting in touch. Could you let us know a few times this week that you’d be free for an initial 30-minute appointment?",0
+SC0953,2026-09-03T14:43:32.880Z,student,Ryan Patel,Student replied,"Thanks, I’ve sent that over now.",0
+SC0953,2026-09-04T04:51:58.833Z,resolved,Sarah Mitchell,Case resolved,Initial appointment held. Student booked onto the four-session exam anxiety course and given self-help resources.,0
+SC0954,2026-09-03T08:58:00.000Z,created,Arjun Mehta,Request created,,0
+SC0954,2026-09-03T08:59:00.000Z,triage,Campus Saathi Triage,AI classified request,Sponsor billing · Medium urgency,0
+SC0954,2026-09-03T08:59:00.000Z,assigned,Campus Saathi Triage,Assigned to Fees & Income Team,,0
+SC0954,2026-09-03T10:16:14.899Z,assigned,Queue manager,Assigned to Karen Doyle,,0
+SC0954,2026-09-03T11:20:51.006Z,status,Karen Doyle,Status changed from New to In Progress,,0
+SC0954,2026-09-03T11:22:51.006Z,response,Karen Doyle,Response sent to student,"Hi Arjun, thanks for getting in touch. Please send us the sponsor letter so we can raise the invoice.",0
+SC0954,2026-09-03T11:32:51.006Z,note,Karen Doyle,Internal note added,Checked SITS account – no payments received since September.,1
+SC0954,2026-09-04T03:32:01.824Z,student,Arjun Mehta,Student replied,"Thanks, I’ve sent that over now.",0
+SC0954,2026-09-06T11:33:11.466Z,resolved,Karen Doyle,Case resolved,Sponsor invoice raised and overdue flag removed from the student account.,0
+SC0955,2026-09-03T14:29:00.000Z,created,Priya Sharma,Request created,,0
+SC0955,2026-09-03T14:30:00.000Z,triage,Campus Saathi Triage,AI classified request,Low mood · Medium urgency,0
+SC0955,2026-09-03T14:30:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC0955,2026-09-03T15:41:56.448Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC0955,2026-09-03T16:46:38.202Z,status,Sarah Mitchell,Status changed from New to In Progress,,0
+SC0955,2026-09-03T16:48:38.202Z,response,Sarah Mitchell,Response sent to student,"Hi Priya, thanks for getting in touch. Would you prefer to meet in person at the Hollins Building or over Teams?",0
+SC0955,2026-09-04T11:48:27.958Z,student,Priya Sharma,Student replied,"Thanks, I’ve sent that over now.",0
+SC0955,2026-09-05T23:55:13.537Z,resolved,Sarah Mitchell,Case resolved,Student attended two sessions and was referred to the peer mentoring scheme. Agreed to get back in touch if things change.,0
+SC0956,2026-09-03T20:50:00.000Z,created,Ryan Patel,Request created,,0
+SC0956,2026-09-03T20:51:00.000Z,triage,Campus Saathi Triage,AI classified request,Bereavement · High urgency,0
+SC0956,2026-09-03T20:51:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC0956,2026-09-03T22:56:07.016Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC0956,2026-09-03T23:13:10.669Z,status,Sarah Mitchell,Status changed from New to In Progress,,0
+SC0956,2026-09-03T23:15:10.669Z,response,Sarah Mitchell,Response sent to student,"Hi Ryan, thanks for getting in touch. We’re very sorry for your loss. Are you able to attend an appointment tomorrow morning?",0
+SC0956,2026-09-04T05:45:24.072Z,student,Ryan Patel,Student replied,"Thanks, I’ve sent that over now.",0
+SC0956,2026-09-05T07:53:01.627Z,resolved,Sarah Mitchell,Case resolved,Counselling sessions arranged. Student also supported to submit extenuating circumstances with the Academic Advice Team.,0
+SC0957,2026-09-04T05:23:00.000Z,created,Wei Zhang,Request created,,0
+SC0957,2026-09-04T05:24:00.000Z,triage,Campus Saathi Triage,AI classified request,Personal safety · High urgency,0
+SC0957,2026-09-04T05:24:00.000Z,assigned,Campus Saathi Triage,Assigned to Security Control Room,,0
+SC0957,2026-09-04T06:45:33.104Z,assigned,Queue manager,Assigned to Kelly Shaw,,0
+SC0957,2026-09-04T07:01:17.418Z,status,Kelly Shaw,Status changed from New to In Progress,,0
+SC0957,2026-09-04T07:03:17.418Z,response,Kelly Shaw,Response sent to student,"Hi Wei, thanks for getting in touch. Please call the Security Lodge on 01632 960 444 if this happens again. Could you describe the person?",0
+SC0957,2026-09-05T01:33:12.969Z,student,Wei Zhang,Student replied,"Thanks, I’ve sent that over now.",0
+SC0957,2026-09-06T11:06:04.085Z,resolved,Kelly Shaw,Case resolved,Patrols increased on the route and student registered for the Safe Walk service.,0
+SC0958,2026-09-04T09:32:00.000Z,created,Olivia Brennan,Request created,,0
+SC0958,2026-09-04T09:33:00.000Z,triage,Campus Saathi Triage,AI classified request,Anxiety · Medium urgency,0
+SC0958,2026-09-04T09:33:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC0958,2026-09-04T11:37:19.984Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC0958,2026-09-04T12:39:32.258Z,status,Sarah Mitchell,Status changed from New to In Progress,,0
+SC0958,2026-09-04T12:41:32.258Z,response,Sarah Mitchell,Response sent to student,"Hi Olivia, thanks for getting in touch. Could you complete the short pre-appointment questionnaire we’ve emailed you?",0
+SC0958,2026-09-05T18:16:36.453Z,student,Olivia Brennan,Student replied,"Thanks, I’ve sent that over now.",0
+SC0958,2026-09-08T06:33:00.514Z,resolved,Sarah Mitchell,Case resolved,Appointment held and coping plan agreed. Student registered for the Managing Anxiety workshop.,0
+SC0959,2026-09-04T17:45:00.000Z,created,Isabella Rossi,Request created,,0
+SC0959,2026-09-04T17:46:00.000Z,triage,Campus Saathi Triage,AI classified request,Moodle · Medium urgency,0
+SC0959,2026-09-04T17:46:00.000Z,assigned,Campus Saathi Triage,Assigned to IT Service Desk,,0
+SC0959,2026-09-04T18:43:08.471Z,assigned,Queue manager,Assigned to Nadia Petrova,,0
+SC0959,2026-09-04T19:10:27.696Z,status,Nadia Petrova,Status changed from New to In Progress,,0
+SC0959,2026-09-04T19:12:27.696Z,response,Nadia Petrova,Response sent to student,"Hi Isabella, thanks for getting in touch. Could you list the module codes that are missing?",0
+SC0959,2026-09-04T19:22:27.696Z,note,Nadia Petrova,Internal note added,Account shows repeated failed sign-ins from the student’s own device – not a security concern.,1
+SC0959,2026-09-04T23:55:53.123Z,student,Isabella Rossi,Student replied,"Thanks, I’ve sent that over now.",0
+SC0959,2026-09-06T04:31:23.544Z,resolved,Nadia Petrova,Case resolved,Enrolment sync re-run. Both modules now visible on the student’s dashboard.,0
+SC0960,2026-09-05T01:07:00.000Z,created,Liam O’Brien,Request created,,0
+SC0960,2026-09-05T01:08:00.000Z,triage,Campus Saathi Triage,AI classified request,Interruption of studies · Medium urgency,0
+SC0960,2026-09-05T01:08:00.000Z,assigned,Campus Saathi Triage,Assigned to Academic Advice Team,,0
+SC0960,2026-09-05T02:55:25.386Z,assigned,Queue manager,Assigned to Rachel Moore,,0
+SC0960,2026-09-05T03:46:26.216Z,status,Rachel Moore,Status changed from New to In Progress,,0
+SC0960,2026-09-05T03:48:26.216Z,response,Rachel Moore,Response sent to student,"Hi Liam, thanks for getting in touch. Can we book a meeting to go through the options and what it means for your finance?",0
+SC0960,2026-09-05T03:49:26.216Z,status,Rachel Moore,Status changed from In Progress to Waiting,Waiting on student,0
+SC0961,2026-09-05T07:05:00.000Z,created,Isabella Rossi,Request created,,0
+SC0961,2026-09-05T07:06:00.000Z,triage,Campus Saathi Triage,AI classified request,Room transfers · Medium urgency,0
+SC0961,2026-09-05T07:06:00.000Z,assigned,Campus Saathi Triage,Assigned to Residential Life,,0
+SC0961,2026-09-05T08:05:41.376Z,assigned,Queue manager,Assigned to Amara Eze,,0
+SC0961,2026-09-05T08:15:30.334Z,status,Amara Eze,Status changed from New to In Progress,,0
+SC0961,2026-09-05T08:17:30.334Z,response,Amara Eze,Response sent to student,"Hi Isabella, thanks for getting in touch. Would you like a mediated conversation with your flatmates before we look at a transfer?",0
+SC0961,2026-09-05T08:27:30.334Z,note,Amara Eze,Internal note added,Estates job raised with the maintenance contractor.,1
+SC0961,2026-09-05T21:19:25.994Z,student,Isabella Rossi,Student replied,"Thanks, I’ve sent that over now.",0
+SC0961,2026-09-07T05:46:26.724Z,resolved,Amara Eze,Case resolved,Transfer approved to a studio in Riverside Hall from the start of next month.,0
+SC0962,2026-09-05T14:49:00.000Z,created,Isabella Rossi,Request created,,0
+SC0962,2026-09-05T14:50:00.000Z,triage,Campus Saathi Triage,AI classified request,Progression · Medium urgency,0
+SC0962,2026-09-05T14:50:00.000Z,assigned,Campus Saathi Triage,Assigned to Academic Advice Team,,0
+SC0962,2026-09-05T17:04:30.666Z,assigned,Queue manager,Assigned to Rachel Moore,,0
+SC0962,2026-09-05T17:42:42.585Z,status,Rachel Moore,Status changed from New to In Progress,,0
+SC0962,2026-09-05T17:44:42.585Z,response,Rachel Moore,Response sent to student,"Hi Isabella, thanks for getting in touch. Could you confirm the module code and the mark you received?",0
+SC0962,2026-09-06T11:00:24.662Z,student,Isabella Rossi,Student replied,"Thanks, I’ve sent that over now.",0
+SC0962,2026-09-08T01:34:16.609Z,resolved,Rachel Moore,Case resolved,Student is eligible for a resit in August and can progress if passed. Resit guidance sent.,0
+SC0963,2026-09-05T20:52:00.000Z,created,Chloe Nguyen,Request created,,0
+SC0963,2026-09-05T20:53:00.000Z,triage,Campus Saathi Triage,AI classified request,Concern for another student · High urgency,0
+SC0963,2026-09-05T20:53:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC0963,2026-09-05T22:08:11.696Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC0963,2026-09-05T23:12:39.172Z,status,Sarah Mitchell,Status changed from New to In Progress,,0
+SC0963,2026-09-05T23:14:39.172Z,response,Sarah Mitchell,Response sent to student,"Hi Chloe, thanks for getting in touch. Thank you for letting us know. Can you confirm which hall and flat your flatmate lives in?",0
+SC0963,2026-09-05T23:24:39.172Z,note,Sarah Mitchell,Internal note added,Risk screen completed – no immediate risk indicated. Offer next available slot.,1
+SC0963,2026-09-07T04:12:14.742Z,student,Chloe Nguyen,Student replied,"Thanks, I’ve sent that over now.",0
+SC0963,2026-09-09T15:34:29.748Z,resolved,Sarah Mitchell,Case resolved,Residential Life carried out a welfare check. Student concerned has been contacted directly by the wellbeing team.,0
+SC0964,2026-09-06T03:39:00.000Z,created,Tomás García,Request created,,0
+SC0964,2026-09-06T03:40:00.000Z,triage,Campus Saathi Triage,AI classified request,Bursaries · Low urgency,0
+SC0964,2026-09-06T03:40:00.000Z,assigned,Campus Saathi Triage,Assigned to Student Funding Office,,0
+SC0964,2026-09-06T05:29:40.556Z,assigned,Queue manager,Assigned to Peter Lang,,0
+SC0964,2026-09-06T06:01:32.317Z,status,Peter Lang,Status changed from New to In Progress,,0
+SC0964,2026-09-06T06:03:32.317Z,response,Peter Lang,Response sent to student,"Hi Tomás, thanks for getting in touch. Can you confirm your household income assessment has been shared with the university?",0
+SC0964,2026-09-06T19:29:35.737Z,student,Tomás García,Student replied,"Thanks, I’ve sent that over now.",0
+SC0964,2026-09-08T16:18:49.959Z,resolved,Peter Lang,Case resolved,Bursary scheduled for payment on the next run. Dates confirmed with student.,0
+SC0965,2026-09-06T10:21:00.000Z,created,Zara Hussain,Request created,,0
+SC0965,2026-09-06T10:22:00.000Z,triage,Campus Saathi Triage,AI classified request,Student loan delays · High urgency,0
+SC0965,2026-09-06T10:22:00.000Z,assigned,Campus Saathi Triage,Assigned to Fees & Income Team,,0
+SC0965,2026-09-06T12:53:52.125Z,assigned,Queue manager,Assigned to Imran Siddiqui,,0
+SC0965,2026-09-06T13:48:42.418Z,status,Imran Siddiqui,Status changed from New to In Progress,,0
+SC0965,2026-09-06T13:50:42.418Z,response,Imran Siddiqui,Response sent to student,"Hi Zara, thanks for getting in touch. We’ve confirmed your attendance today. Can you let us know once SFE updates your account?",0
+SC0965,2026-09-07T06:25:58.236Z,student,Zara Hussain,Student replied,"Thanks, I’ve sent that over now.",0
+SC0965,2026-09-07T12:48:07.904Z,resolved,Imran Siddiqui,Case resolved,Attendance confirmed to Student Finance England. Payment released within three working days.,0
+SC0966,2026-09-06T17:03:00.000Z,created,Daniel Okonkwo,Request created,,0
+SC0966,2026-09-06T17:04:00.000Z,triage,Campus Saathi Triage,AI classified request,Attendance monitoring · High urgency,0
+SC0966,2026-09-06T17:04:00.000Z,assigned,Campus Saathi Triage,Assigned to International Student Advice,,0
+SC0966,2026-09-06T18:27:37.267Z,assigned,Queue manager,Assigned to Mei Lin,,0
+SC0966,2026-09-06T18:51:38.333Z,status,Mei Lin,Status changed from New to In Progress,,0
+SC0966,2026-09-06T18:53:38.333Z,response,Mei Lin,Response sent to student,"Hi Daniel, thanks for getting in touch. Please send the doctor’s note so we can update your attendance record.",0
+SC0966,2026-09-07T10:16:48.937Z,student,Daniel Okonkwo,Student replied,"Thanks, I’ve sent that over now.",0
+SC0966,2026-09-09T20:13:28.748Z,resolved,Mei Lin,Case resolved,Authorised absence recorded. Attendance warning withdrawn.,0
+SC0967,2026-09-06T23:13:00.000Z,created,Zara Hussain,Request created,,0
+SC0967,2026-09-06T23:14:00.000Z,triage,Campus Saathi Triage,AI classified request,Scholarships · Low urgency,0
+SC0967,2026-09-06T23:14:00.000Z,assigned,Campus Saathi Triage,Assigned to Student Funding Office,,0
+SC0967,2026-09-07T00:31:15.743Z,assigned,Queue manager,Assigned to Natalie Brooks,,0
+SC0967,2026-09-07T00:38:00.779Z,status,Natalie Brooks,Status changed from New to In Progress,,0
+SC0967,2026-09-07T00:40:00.779Z,response,Natalie Brooks,Response sent to student,"Hi Zara, thanks for getting in touch. Could you send us your current academic transcript?",0
+SC0967,2026-09-07T00:50:00.779Z,note,Natalie Brooks,Internal note added,Income evidence reviewed – meets Hardship Fund criteria.,1
+SC0967,2026-09-08T10:28:59.129Z,student,Zara Hussain,Student replied,"Thanks, I’ve sent that over now.",0
+SC0967,2026-09-09T06:19:02.402Z,resolved,Natalie Brooks,Case resolved,Eligibility confirmed. Student submitted an application before the deadline.,0
+SC0968,2026-09-07T05:58:00.000Z,created,Emily Carter,Request created,,0
+SC0968,2026-09-07T05:59:00.000Z,triage,Campus Saathi Triage,AI classified request,E-resources · Medium urgency,0
+SC0968,2026-09-07T05:59:00.000Z,assigned,Campus Saathi Triage,Assigned to Library Customer Services,,0
+SC0968,2026-09-07T07:17:39.831Z,assigned,Queue manager,Assigned to Fiona Grant,,0
+SC0968,2026-09-07T08:00:16.695Z,status,Fiona Grant,Status changed from New to In Progress,,0
+SC0968,2026-09-07T08:02:16.695Z,response,Fiona Grant,Response sent to student,"Hi Emily, thanks for getting in touch. Which database or journal are you trying to use?",0
+SC0968,2026-09-07T12:03:57.763Z,student,Emily Carter,Student replied,"Thanks, I’ve sent that over now.",0
+SC0968,2026-09-08T18:31:19.036Z,resolved,Fiona Grant,Case resolved,Student guided to use the Library Search link so the university login is applied. Access confirmed.,0
+SC0969,2026-09-07T14:07:00.000Z,created,Olivia Brennan,Request created,,0
+SC0969,2026-09-07T14:08:00.000Z,triage,Campus Saathi Triage,AI classified request,Transcripts · Low urgency,0
+SC0969,2026-09-07T14:08:00.000Z,assigned,Campus Saathi Triage,Assigned to Registry Office,,0
+SC0969,2026-09-07T16:24:47.531Z,assigned,Queue manager,Assigned to Linda Hart,,0
+SC0969,2026-09-07T17:17:49.241Z,status,Linda Hart,Status changed from New to In Progress,,0
+SC0969,2026-09-07T17:19:49.241Z,response,Linda Hart,Response sent to student,"Hi Olivia, thanks for getting in touch. Should the transcript be sent to you or directly to the employer?",0
+SC0969,2026-09-08T18:58:51.844Z,student,Olivia Brennan,Student replied,"Thanks, I’ve sent that over now.",0
+SC0969,2026-09-09T00:09:33.723Z,resolved,Linda Hart,Case resolved,Official transcript issued as a secure digital document.,0
+SC0970,2026-09-07T20:04:00.000Z,created,Tomás García,Request created,,0
+SC0970,2026-09-07T20:05:00.000Z,triage,Campus Saathi Triage,AI classified request,Extensions · Medium urgency,0
+SC0970,2026-09-07T20:05:00.000Z,assigned,Campus Saathi Triage,Assigned to Academic Advice Team,,0
+SC0970,2026-09-07T22:47:33.157Z,assigned,Queue manager,Assigned to Rachel Moore,,0
+SC0970,2026-09-07T23:36:45.487Z,status,Rachel Moore,Status changed from New to In Progress,,0
+SC0970,2026-09-07T23:38:45.487Z,response,Rachel Moore,Response sent to student,"Hi Tomás, thanks for getting in touch. Please upload a GP note or self-certification form so we can process the extension.",0
+SC0970,2026-09-07T23:48:45.487Z,note,Rachel Moore,Internal note added,Checked with programme lead – extension within module policy.,1
+SC0970,2026-09-08T21:44:47.669Z,student,Tomás García,Student replied,"Thanks, I’ve sent that over now.",0
+SC0970,2026-09-09T04:42:36.739Z,resolved,Rachel Moore,Case resolved,Seven-day extension approved and module leader notified.,0
+SC0971,2026-09-08T02:24:00.000Z,created,Megan Hughes,Request created,,0
+SC0971,2026-09-08T02:25:00.000Z,triage,Campus Saathi Triage,AI classified request,Travel · Low urgency,0
+SC0971,2026-09-08T02:25:00.000Z,assigned,Campus Saathi Triage,Assigned to International Student Advice,,0
+SC0971,2026-09-08T04:22:30.431Z,assigned,Queue manager,Assigned to Mei Lin,,0
+SC0971,2026-09-08T04:56:52.554Z,status,Mei Lin,Status changed from New to In Progress,,0
+SC0971,2026-09-08T04:58:52.554Z,response,Mei Lin,Response sent to student,"Hi Megan, thanks for getting in touch. Can you confirm your travel dates?",0
+SC0971,2026-09-08T05:08:52.554Z,note,Mei Lin,Internal note added,Checked Home Office portal – no reportable change yet.,1
+SC0971,2026-09-08T14:26:03.090Z,student,Megan Hughes,Student replied,"Thanks, I’ve sent that over now.",0
+SC0971,2026-09-10T10:06:22.747Z,resolved,Mei Lin,Case resolved,Travel dates noted on record and travel letter issued.,0
+SC0972,2026-09-08T09:35:00.000Z,created,Hannah Kowalski,Request created,,0
+SC0972,2026-09-08T09:36:00.000Z,triage,Campus Saathi Triage,AI classified request,Exam stress · Medium urgency,0
+SC0972,2026-09-08T09:36:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC0972,2026-09-08T11:16:16.226Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC0972,2026-09-08T11:59:09.458Z,status,Sarah Mitchell,Status changed from New to In Progress,,0
+SC0972,2026-09-08T12:01:09.458Z,response,Sarah Mitchell,Response sent to student,"Hi Hannah, thanks for getting in touch. Could you let us know a few times this week that you’d be free for an initial 30-minute appointment?",0
+SC0972,2026-09-09T06:34:11.384Z,student,Hannah Kowalski,Student replied,"Thanks, I’ve sent that over now.",0
+SC0972,2026-09-11T04:52:28.546Z,resolved,Sarah Mitchell,Case resolved,Initial appointment held. Student booked onto the four-session exam anxiety course and given self-help resources.,0
+SC0973,2026-09-08T15:52:00.000Z,created,Emily Carter,Request created,,0
+SC0973,2026-09-08T15:53:00.000Z,triage,Campus Saathi Triage,AI classified request,Interviews · Low urgency,0
+SC0973,2026-09-08T15:53:00.000Z,assigned,Campus Saathi Triage,Assigned to Careers Service,,0
+SC0973,2026-09-08T16:36:43.654Z,assigned,Queue manager,Assigned to Hollie Parker,,0
+SC0973,2026-09-08T17:06:25.892Z,status,Hollie Parker,Status changed from New to In Progress,,0
+SC0973,2026-09-08T17:08:25.892Z,response,Hollie Parker,Response sent to student,"Hi Emily, thanks for getting in touch. Which days next week are you available for a mock interview?",0
+SC0973,2026-09-08T17:18:25.892Z,note,Hollie Parker,Internal note added,Employer contacted for more detail.,1
+SC0973,2026-09-09T15:41:21.107Z,student,Emily Carter,Student replied,"Thanks, I’ve sent that over now.",0
+SC0973,2026-09-10T17:51:23.327Z,resolved,Hollie Parker,Case resolved,Mock interview completed and feedback shared.,0
+SC0974,2026-09-08T23:42:00.000Z,created,Daniel Okonkwo,Request created,,0
+SC0974,2026-09-08T23:43:00.000Z,triage,Campus Saathi Triage,AI classified request,Invoices · Medium urgency,0
+SC0974,2026-09-08T23:43:00.000Z,assigned,Campus Saathi Triage,Assigned to Fees & Income Team,,0
+SC0974,2026-09-09T00:11:40.338Z,assigned,Queue manager,Assigned to Imran Siddiqui,,0
+SC0974,2026-09-09T01:08:54.209Z,status,Imran Siddiqui,Status changed from New to In Progress,,0
+SC0974,2026-09-09T01:10:54.209Z,response,Imran Siddiqui,Response sent to student,"Hi Daniel, thanks for getting in touch. Could you tell us which invoice number you’re referring to?",0
+SC0974,2026-09-09T01:20:54.209Z,note,Imran Siddiqui,Internal note added,Checked SITS account – no payments received since September.,1
+SC0974,2026-09-09T01:21:54.209Z,status,Imran Siddiqui,Status changed from In Progress to Waiting,Waiting on student,0
+SC0975,2026-09-09T05:59:00.000Z,created,Priya Sharma,Request created,,0
+SC0975,2026-09-09T06:00:00.000Z,triage,Campus Saathi Triage,AI classified request,Emergency support · High urgency,0
+SC0975,2026-09-09T06:00:00.000Z,assigned,Campus Saathi Triage,Assigned to Student Funding Office,,0
+SC0975,2026-09-09T07:36:59.902Z,assigned,Queue manager,Assigned to Peter Lang,,0
+SC0975,2026-09-09T08:24:31.993Z,status,Peter Lang,Status changed from New to In Progress,,0
+SC0975,2026-09-09T08:26:31.993Z,response,Peter Lang,Response sent to student,"Hi Priya, thanks for getting in touch. Please come to the Student Hub first floor today — we can issue a food voucher straight away.",0
+SC0975,2026-09-09T23:06:48.047Z,student,Priya Sharma,Student replied,"Thanks, I’ve sent that over now.",0
+SC0975,2026-09-10T11:00:39.434Z,resolved,Peter Lang,Case resolved,Emergency food voucher and a short-term loan of £150 issued the same day.,0
+SC0976,2026-09-09T12:09:00.000Z,created,Daniel Okonkwo,Request created,,0
+SC0976,2026-09-09T12:10:00.000Z,triage,Campus Saathi Triage,AI classified request,Low mood · Medium urgency,0
+SC0976,2026-09-09T12:10:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC0976,2026-09-09T13:35:07.453Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC0976,2026-09-09T13:56:31.837Z,status,Sarah Mitchell,Status changed from New to In Progress,,0
+SC0976,2026-09-09T13:58:31.837Z,response,Sarah Mitchell,Response sent to student,"Hi Daniel, thanks for getting in touch. Would you prefer to meet in person at the Hollins Building or over Teams?",0
+SC0976,2026-09-09T13:59:31.837Z,status,Sarah Mitchell,Status changed from In Progress to Waiting,Waiting on student,0
+SC0977,2026-09-09T18:53:00.000Z,created,Daniel Okonkwo,Request created,,0
+SC0977,2026-09-09T18:54:00.000Z,triage,Campus Saathi Triage,AI classified request,Bereavement · High urgency,0
+SC0977,2026-09-09T18:54:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC0977,2026-09-09T19:22:02.947Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC0977,2026-09-09T20:04:03.484Z,status,Sarah Mitchell,Status changed from New to In Progress,,0
+SC0977,2026-09-09T20:06:03.484Z,response,Sarah Mitchell,Response sent to student,"Hi Daniel, thanks for getting in touch. We’re very sorry for your loss. Are you able to attend an appointment tomorrow morning?",0
+SC0977,2026-09-09T20:16:03.484Z,note,Sarah Mitchell,Internal note added,Risk screen completed – no immediate risk indicated. Offer next available slot.,1
+SC0977,2026-09-10T11:50:14.103Z,student,Daniel Okonkwo,Student replied,"Thanks, I’ve sent that over now.",0
+SC0977,2026-09-12T20:47:42.040Z,resolved,Sarah Mitchell,Case resolved,Counselling sessions arranged. Student also supported to submit extenuating circumstances with the Academic Advice Team.,0
+SC0978,2026-09-10T01:35:00.000Z,created,Arjun Mehta,Request created,,0
+SC0978,2026-09-10T01:36:00.000Z,triage,Campus Saathi Triage,AI classified request,Anxiety · Medium urgency,0
+SC0978,2026-09-10T01:36:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC0978,2026-09-10T03:46:29.494Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC0978,2026-09-10T04:34:03.318Z,status,Sarah Mitchell,Status changed from New to In Progress,,0
+SC0978,2026-09-10T04:36:03.318Z,response,Sarah Mitchell,Response sent to student,"Hi Arjun, thanks for getting in touch. Could you complete the short pre-appointment questionnaire we’ve emailed you?",0
+SC0978,2026-09-11T12:28:51.249Z,student,Arjun Mehta,Student replied,"Thanks, I’ve sent that over now.",0
+SC0978,2026-09-12T13:52:55.828Z,resolved,Sarah Mitchell,Case resolved,Appointment held and coping plan agreed. Student registered for the Managing Anxiety workshop.,0
+SC0979,2026-09-10T08:54:00.000Z,created,Freya Lindqvist,Request created,,0
+SC0979,2026-09-10T08:55:00.000Z,triage,Campus Saathi Triage,AI classified request,Hardship Fund · High urgency,0
+SC0979,2026-09-10T08:55:00.000Z,assigned,Campus Saathi Triage,Assigned to Student Funding Office,,0
+SC0979,2026-09-10T10:53:52.465Z,assigned,Queue manager,Assigned to Natalie Brooks,,0
+SC0979,2026-09-10T11:09:30.566Z,status,Natalie Brooks,Status changed from New to In Progress,,0
+SC0979,2026-09-10T11:11:30.566Z,response,Natalie Brooks,Response sent to student,"Hi Freya, thanks for getting in touch. Please upload your last three months of bank statements with your application.",0
+SC0979,2026-09-10T11:21:30.566Z,note,Natalie Brooks,Internal note added,Income evidence reviewed – meets Hardship Fund criteria.,1
+SC0979,2026-09-10T16:43:38.411Z,student,Freya Lindqvist,Student replied,"Thanks, I’ve sent that over now.",0
+SC0979,2026-09-11T01:31:57.615Z,resolved,Natalie Brooks,Case resolved,Hardship award of £600 approved and paid. Student referred for budgeting support.,0
+SC0980,2026-09-10T17:06:00.000Z,created,Daniel Okonkwo,Request created,,0
+SC0980,2026-09-10T17:07:00.000Z,triage,Campus Saathi Triage,AI classified request,DSA · Low urgency,0
+SC0980,2026-09-10T17:07:00.000Z,assigned,Campus Saathi Triage,Assigned to Disability Advice Team,,0
+SC0980,2026-09-10T17:28:16.971Z,assigned,Queue manager,Assigned to Sam Rivera,,0
+SC0980,2026-09-10T17:56:03.111Z,status,Sam Rivera,Status changed from New to In Progress,,0
+SC0980,2026-09-10T17:58:03.111Z,response,Sam Rivera,Response sent to student,"Hi Daniel, thanks for getting in touch. Do you have any existing medical evidence we can review with you?",0
+SC0980,2026-09-10T17:59:03.111Z,status,Sam Rivera,Status changed from In Progress to Waiting,Waiting on student,0
+SC0981,2026-09-11T00:24:00.000Z,created,Arjun Mehta,Request created,,0
+SC0981,2026-09-11T00:25:00.000Z,triage,Campus Saathi Triage,AI classified request,Payment plans · Medium urgency,0
+SC0981,2026-09-11T00:25:00.000Z,assigned,Campus Saathi Triage,Assigned to Fees & Income Team,,0
+SC0981,2026-09-11T01:11:58.014Z,assigned,Queue manager,Assigned to Imran Siddiqui,,0
+SC0981,2026-09-11T02:07:58.879Z,status,Imran Siddiqui,Status changed from New to In Progress,,0
+SC0981,2026-09-11T02:09:58.879Z,response,Imran Siddiqui,Response sent to student,"Hi Arjun, thanks for getting in touch. Please confirm the date you’d like the first instalment to be taken.",0
+SC0981,2026-09-12T09:11:55.166Z,student,Arjun Mehta,Student replied,"Thanks, I’ve sent that over now.",0
+SC0981,2026-09-12T17:59:42.940Z,resolved,Imran Siddiqui,Case resolved,Five-month instalment plan set up and confirmation sent.,0
+SC0982,2026-09-11T05:49:00.000Z,created,Aisha Bello,Request created,,0
+SC0982,2026-09-11T05:50:00.000Z,triage,Campus Saathi Triage,AI classified request,Concern for another student · High urgency,0
+SC0982,2026-09-11T05:50:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC0982,2026-09-11T07:24:52.255Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC0982,2026-09-11T07:42:45.785Z,status,Sarah Mitchell,Status changed from New to In Progress,,0
+SC0982,2026-09-11T07:44:45.785Z,response,Sarah Mitchell,Response sent to student,"Hi Aisha, thanks for getting in touch. Thank you for letting us know. Can you confirm which hall and flat your flatmate lives in?",0
+SC0982,2026-09-11T07:54:45.785Z,note,Sarah Mitchell,Internal note added,Risk screen completed – no immediate risk indicated. Offer next available slot.,1
+SC0982,2026-09-12T09:36:43.609Z,student,Aisha Bello,Student replied,"Thanks, I’ve sent that over now.",0
+SC0982,2026-09-14T12:44:34.148Z,resolved,Sarah Mitchell,Case resolved,Residential Life carried out a welfare check. Student concerned has been contacted directly by the wellbeing team.,0
+SC0983,2026-09-11T13:32:00.000Z,created,Ryan Patel,Request created,,0
+SC0983,2026-09-11T13:33:00.000Z,triage,Campus Saathi Triage,AI classified request,Visa extensions · High urgency,0
+SC0983,2026-09-11T13:33:00.000Z,assigned,Campus Saathi Triage,Assigned to International Student Advice,,0
+SC0983,2026-09-11T16:11:14.308Z,assigned,Queue manager,Assigned to George Ellis,,0
+SC0983,2026-09-11T16:22:21.457Z,status,George Ellis,Status changed from New to In Progress,,0
+SC0983,2026-09-11T16:24:21.457Z,response,George Ellis,Response sent to student,"Hi Ryan, thanks for getting in touch. Please send us a copy of your current eVisa share code.",0
+SC0983,2026-09-11T16:25:21.457Z,status,George Ellis,Status changed from In Progress to Waiting,Waiting on student,0
+SC0984,2026-09-11T18:27:00.000Z,created,Ryan Patel,Request created,,0
+SC0984,2026-09-11T18:28:00.000Z,triage,Campus Saathi Triage,AI classified request,Exam stress · Medium urgency,0
+SC0984,2026-09-11T18:28:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC0984,2026-09-11T19:55:06.863Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC0984,2026-09-11T20:39:45.661Z,status,Sarah Mitchell,Status changed from New to In Progress,,0
+SC0984,2026-09-11T20:41:45.661Z,response,Sarah Mitchell,Response sent to student,"Hi Ryan, thanks for getting in touch. Could you let us know a few times this week that you’d be free for an initial 30-minute appointment?",0
+SC0984,2026-09-12T15:26:34.991Z,student,Ryan Patel,Student replied,"Thanks, I’ve sent that over now.",0
+SC0984,2026-09-14T06:13:08.976Z,resolved,Sarah Mitchell,Case resolved,Initial appointment held. Student booked onto the four-session exam anxiety course and given self-help resources.,0
+SC0985,2026-09-12T02:12:00.000Z,created,Grace Thompson,Request created,,0
+SC0985,2026-09-12T02:13:00.000Z,triage,Campus Saathi Triage,AI classified request,Refunds · Low urgency,0
+SC0985,2026-09-12T02:13:00.000Z,assigned,Campus Saathi Triage,Assigned to Fees & Income Team,,0
+SC0985,2026-09-12T04:29:28.264Z,assigned,Queue manager,Assigned to Karen Doyle,,0
+SC0985,2026-09-12T04:53:57.089Z,status,Karen Doyle,Status changed from New to In Progress,,0
+SC0985,2026-09-12T04:55:57.089Z,response,Karen Doyle,Response sent to student,"Hi Grace, thanks for getting in touch. Please send your bank details through the secure refund form.",0
+SC0985,2026-09-13T05:32:12.697Z,student,Grace Thompson,Student replied,"Thanks, I’ve sent that over now.",0
+SC0985,2026-09-15T04:09:58.378Z,resolved,Karen Doyle,Case resolved,Pro-rata refund of £415 processed to student’s bank account.,0
+SC0986,2026-09-12T09:55:00.000Z,created,Emily Carter,Request created,,0
+SC0986,2026-09-12T09:56:00.000Z,triage,Campus Saathi Triage,AI classified request,ID cards · Low urgency,0
+SC0986,2026-09-12T09:56:00.000Z,assigned,Campus Saathi Triage,Assigned to Registry Office,,0
+SC0986,2026-09-12T11:02:58.794Z,assigned,Queue manager,Assigned to Linda Hart,,0
+SC0986,2026-09-12T11:59:20.472Z,status,Linda Hart,Status changed from New to In Progress,,0
+SC0986,2026-09-12T12:01:20.472Z,response,Linda Hart,Response sent to student,"Hi Emily, thanks for getting in touch. Please confirm you’ve paid the £10 replacement fee through the online store.",0
+SC0986,2026-09-13T11:28:37.749Z,student,Emily Carter,Student replied,"Thanks, I’ve sent that over now.",0
+SC0986,2026-09-14T21:44:14.685Z,resolved,Linda Hart,Case resolved,Replacement card printed and collected from the Student Hub.,0
+SC0987,2026-09-14T01:02:00.000Z,created,Abhilash Reddy,Request created,,0
+SC0987,2026-09-14T01:03:00.000Z,triage,Campus Saathi Triage,AI classified request,Wi-Fi · Low urgency,0
+SC0987,2026-09-14T01:03:00.000Z,assigned,Campus Saathi Triage,Assigned to IT Service Desk,,0
+SC0987,2026-09-14T01:54:00.000Z,assigned,Queue manager,Assigned to Nadia Petrova,,0
+SC0987,2026-09-14T02:12:00.000Z,status,Nadia Petrova,Status changed from New to In Progress,,0
+SC0987,2026-09-14T02:14:00.000Z,response,Nadia Petrova,Response sent to student,"Hi Abhilash, the Windows update removes the old eduroam profile. Please install the geteduroam app from the Software Hub and sign in with your full university email. Let me know if that works.",0
+SC0987,2026-09-15T00:02:00.000Z,student,Abhilash Reddy,Student replied,"That worked, thank you!",0
+SC0987,2026-09-15T01:22:00.000Z,resolved,Nadia Petrova,Case resolved,eduroam profile reinstalled with the geteduroam app. Student confirmed connection working.,0
+SC0988,2026-09-12T23:57:00.000Z,created,Ryan Patel,Request created,,0
+SC0988,2026-09-12T23:58:00.000Z,triage,Campus Saathi Triage,AI classified request,Bursaries · Low urgency,0
+SC0988,2026-09-12T23:58:00.000Z,assigned,Campus Saathi Triage,Assigned to Student Funding Office,,0
+SC0988,2026-09-13T02:18:28.177Z,assigned,Queue manager,Assigned to Natalie Brooks,,0
+SC0988,2026-09-13T03:10:05.131Z,status,Natalie Brooks,Status changed from New to In Progress,,0
+SC0988,2026-09-13T03:12:05.131Z,response,Natalie Brooks,Response sent to student,"Hi Ryan, thanks for getting in touch. Can you confirm your household income assessment has been shared with the university?",0
+SC0988,2026-09-13T08:57:24.126Z,student,Ryan Patel,Student replied,"Thanks, I’ve sent that over now.",0
+SC0988,2026-09-14T00:36:31.492Z,resolved,Natalie Brooks,Case resolved,Bursary scheduled for payment on the next run. Dates confirmed with student.,0
+SC0989,2026-09-13T04:54:00.000Z,created,Yusuf Demir,Request created,,0
+SC0989,2026-09-13T04:55:00.000Z,triage,Campus Saathi Triage,AI classified request,Scholarships · Low urgency,0
+SC0989,2026-09-13T04:55:00.000Z,assigned,Campus Saathi Triage,Assigned to Student Funding Office,,0
+SC0989,2026-09-13T07:01:01.593Z,assigned,Queue manager,Assigned to Peter Lang,,0
+SC0989,2026-09-13T07:42:03.993Z,status,Peter Lang,Status changed from New to In Progress,,0
+SC0989,2026-09-13T07:44:03.993Z,response,Peter Lang,Response sent to student,"Hi Yusuf, thanks for getting in touch. Could you send us your current academic transcript?",0
+SC0989,2026-09-13T22:38:18.166Z,student,Yusuf Demir,Student replied,"Thanks, I’ve sent that over now.",0
+SC0989,2026-09-15T08:01:30.334Z,resolved,Peter Lang,Case resolved,Eligibility confirmed. Student submitted an application before the deadline.,0
+SC0990,2026-09-13T13:04:00.000Z,created,Ryan Patel,Request created,,0
+SC0990,2026-09-13T13:05:00.000Z,triage,Campus Saathi Triage,AI classified request,Account access · High urgency,0
+SC0990,2026-09-13T13:05:00.000Z,assigned,Campus Saathi Triage,Assigned to IT Service Desk,,0
+SC0990,2026-09-13T14:40:57.312Z,assigned,Queue manager,Assigned to Nadia Petrova,,0
+SC0990,2026-09-13T14:57:01.220Z,status,Nadia Petrova,Status changed from New to In Progress,,0
+SC0990,2026-09-13T14:59:01.220Z,response,Nadia Petrova,Response sent to student,"Hi Ryan, thanks for getting in touch. Please visit the Service Desk in the library with your ID card so we can reset your MFA.",0
+SC0990,2026-09-13T19:54:16.039Z,student,Ryan Patel,Student replied,"Thanks, I’ve sent that over now.",0
+SC0990,2026-09-15T20:51:44.326Z,resolved,Nadia Petrova,Case resolved,Identity verified in person and MFA reset to new device.,0
+SC0991,2026-09-13T19:06:00.000Z,created,Yusuf Demir,Request created,,0
+SC0991,2026-09-13T19:07:00.000Z,triage,Campus Saathi Triage,AI classified request,Flatmate concerns · Low urgency,0
+SC0991,2026-09-13T19:07:00.000Z,assigned,Campus Saathi Triage,Assigned to Residential Life,,0
+SC0991,2026-09-13T21:11:03.164Z,assigned,Queue manager,Assigned to Joe Whitfield,,0
+SC0991,2026-09-13T22:08:23.772Z,status,Joe Whitfield,Status changed from New to In Progress,,0
+SC0991,2026-09-13T22:10:23.772Z,response,Joe Whitfield,Response sent to student,"Hi Yusuf, thanks for getting in touch. Can you let us know the dates and times of the recent disturbances?",0
+SC0992,2026-09-14T02:23:00.000Z,created,Arjun Mehta,Request created,,0
+SC0992,2026-09-14T02:24:00.000Z,triage,Campus Saathi Triage,AI classified request,Account access · Medium urgency,0
+SC0992,2026-09-14T02:24:00.000Z,assigned,Campus Saathi Triage,Assigned to IT Service Desk,,0
+SC0992,2026-09-14T04:25:12.815Z,assigned,Queue manager,Assigned to Nadia Petrova,,0
+SC0992,2026-09-14T05:17:48.236Z,status,Nadia Petrova,Status changed from New to In Progress,,0
+SC0992,2026-09-14T05:19:48.236Z,response,Nadia Petrova,Response sent to student,"Hi Arjun, thanks for getting in touch. Please confirm the phone number registered for your MFA so we can verify your identity.",0
+SC0992,2026-09-14T05:20:48.236Z,status,Nadia Petrova,Status changed from In Progress to Waiting,Waiting on student,0
+SC0993,2026-09-14T07:51:00.000Z,created,Daniel Okonkwo,Request created,,0
+SC0993,2026-09-14T07:52:00.000Z,triage,Campus Saathi Triage,AI classified request,Incident report · Medium urgency,0
+SC0993,2026-09-14T07:52:00.000Z,assigned,Campus Saathi Triage,Assigned to Security Control Room,,0
+SC0993,2026-09-14T09:21:51.156Z,assigned,Queue manager,Assigned to Kelly Shaw,,0
+SC0993,2026-09-14T09:55:20.682Z,status,Kelly Shaw,Status changed from New to In Progress,,0
+SC0993,2026-09-14T09:57:20.682Z,response,Kelly Shaw,Response sent to student,"Hi Daniel, thanks for getting in touch. Have you reported this to the police? If so, please share the crime reference number.",0
+SC0994,2026-09-14T14:21:00.000Z,created,Kwame Mensah,Request created,,0
+SC0994,2026-09-14T14:22:00.000Z,triage,Campus Saathi Triage,AI classified request,Accessible accommodation · High urgency,0
+SC0994,2026-09-14T14:22:00.000Z,assigned,Campus Saathi Triage,Assigned to Disability Advice Team,,0
+SC0994,2026-09-14T14:52:14.517Z,assigned,Queue manager,Assigned to Dr Claire Ashworth,,0
+SC0994,2026-09-14T14:57:28.015Z,status,Dr Claire Ashworth,Status changed from New to In Progress,,0
+SC0994,2026-09-14T14:59:28.015Z,response,Dr Claire Ashworth,Response sent to student,"Hi Kwame, thanks for getting in touch. We’re speaking to Residential Life now. Can you confirm your preferred move date?",0
+SC0994,2026-09-14T15:09:28.015Z,note,Dr Claire Ashworth,Internal note added,Evidence received and uploaded to the student’s support file.,1
+SC0995,2026-09-14T21:26:00.000Z,created,Olivia Brennan,Request created,,0
+SC0995,2026-09-14T21:27:00.000Z,triage,Campus Saathi Triage,AI classified request,Emergency support · High urgency,0
+SC0995,2026-09-14T21:27:00.000Z,assigned,Campus Saathi Triage,Assigned to Student Funding Office,,0
+SC0995,2026-09-14T22:08:23.019Z,assigned,Queue manager,Assigned to Peter Lang,,0
+SC0995,2026-09-14T22:48:08.400Z,status,Peter Lang,Status changed from New to In Progress,,0
+SC0995,2026-09-14T22:50:08.400Z,response,Peter Lang,Response sent to student,"Hi Olivia, thanks for getting in touch. Please come to the Student Hub first floor today — we can issue a food voucher straight away.",0
+SC0995,2026-09-15T05:09:32.364Z,student,Olivia Brennan,Student replied,"Thanks, I’ve sent that over now.",0
+SC0995,2026-09-16T08:26:38.365Z,resolved,Peter Lang,Case resolved,Emergency food voucher and a short-term loan of £150 issued the same day.,0
+SC0996,2026-09-15T03:47:00.000Z,created,Olivia Brennan,Request created,,0
+SC0996,2026-09-15T03:48:00.000Z,triage,Campus Saathi Triage,AI classified request,Low mood · Medium urgency,0
+SC0996,2026-09-15T03:48:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC0996,2026-09-15T05:10:28.521Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC0996,2026-09-15T05:27:57.970Z,status,Sarah Mitchell,Status changed from New to In Progress,,0
+SC0996,2026-09-15T05:29:57.970Z,response,Sarah Mitchell,Response sent to student,"Hi Olivia, thanks for getting in touch. Would you prefer to meet in person at the Hollins Building or over Teams?",0
+SC0996,2026-09-15T05:39:57.970Z,note,Sarah Mitchell,Internal note added,Risk screen completed – no immediate risk indicated. Offer next available slot.,1
+SC0996,2026-09-16T04:18:39.886Z,student,Olivia Brennan,Student replied,"Thanks, I’ve sent that over now.",0
+SC0996,2026-09-16T14:59:30.862Z,resolved,Sarah Mitchell,Case resolved,Student attended two sessions and was referred to the peer mentoring scheme. Agreed to get back in touch if things change.,0
+SC0997,2026-09-15T11:39:00.000Z,created,Aisha Bello,Request created,,0
+SC0997,2026-09-15T11:40:00.000Z,triage,Campus Saathi Triage,AI classified request,Contract and rent · Low urgency,0
+SC0997,2026-09-15T11:40:00.000Z,assigned,Campus Saathi Triage,Assigned to Residential Life,,0
+SC0997,2026-09-15T12:22:51.445Z,assigned,Queue manager,Assigned to Joe Whitfield,,0
+SC0997,2026-09-15T13:22:12.520Z,status,Joe Whitfield,Status changed from New to In Progress,,0
+SC0997,2026-09-15T13:24:12.520Z,response,Joe Whitfield,Response sent to student,"Hi Aisha, thanks for getting in touch. Could you send any photos you took when you checked out?",0
+SC0997,2026-09-15T13:34:12.520Z,note,Joe Whitfield,Internal note added,Estates job raised with the maintenance contractor.,1
+SC0997,2026-09-15T13:35:12.520Z,status,Joe Whitfield,Status changed from In Progress to Waiting,Waiting on student,0
+SC0998,2026-09-15T18:23:00.000Z,created,Liam O’Brien,Request created,,0
+SC0998,2026-09-15T18:24:00.000Z,triage,Campus Saathi Triage,AI classified request,Wi-Fi · Low urgency,0
+SC0998,2026-09-15T18:24:00.000Z,assigned,Campus Saathi Triage,Assigned to IT Service Desk,,0
+SC0998,2026-09-15T20:57:18.209Z,assigned,Queue manager,Assigned to Ben Carlisle,,0
+SC0998,2026-09-15T21:58:14.638Z,status,Ben Carlisle,Status changed from New to In Progress,,0
+SC0998,2026-09-15T22:00:14.638Z,response,Ben Carlisle,Response sent to student,"Hi Liam, thanks for getting in touch. Could you tell us your laptop model and operating system?",0
+SC0998,2026-09-16T05:47:46.387Z,student,Liam O’Brien,Student replied,"Thanks, I’ve sent that over now.",0
+SC0998,2026-09-17T05:31:42.624Z,resolved,Ben Carlisle,Case resolved,Old eduroam profile removed and reinstalled using the geteduroam app. Connection working.,0
+SC0999,2026-09-16T02:31:00.000Z,created,Zara Hussain,Request created,,0
+SC0999,2026-09-16T02:32:00.000Z,triage,Campus Saathi Triage,AI classified request,Letters · Low urgency,0
+SC0999,2026-09-16T02:32:00.000Z,assigned,Campus Saathi Triage,Assigned to International Student Advice,,0
+SC0999,2026-09-16T04:49:46.869Z,assigned,Queue manager,Assigned to Mei Lin,,0
+SC0999,2026-09-16T05:00:11.067Z,status,Mei Lin,Status changed from New to In Progress,,0
+SC0999,2026-09-16T05:02:11.067Z,response,Mei Lin,Response sent to student,"Hi Zara, thanks for getting in touch. Which bank are you applying to?",0
+SC0999,2026-09-16T10:24:35.016Z,student,Zara Hussain,Student replied,"Thanks, I’ve sent that over now.",0
+SC0999,2026-09-18T10:48:49.503Z,resolved,Mei Lin,Case resolved,Bank letter generated and emailed to student.,0
+SC1000,2026-09-16T08:57:00.000Z,created,Arjun Mehta,Request created,,0
+SC1000,2026-09-16T08:58:00.000Z,triage,Campus Saathi Triage,AI classified request,Bereavement · High urgency,0
+SC1000,2026-09-16T08:58:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC1000,2026-09-16T11:35:16.607Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC1000,2026-09-16T12:17:31.804Z,status,Sarah Mitchell,Status changed from New to In Progress,,0
+SC1000,2026-09-16T12:19:31.804Z,response,Sarah Mitchell,Response sent to student,"Hi Arjun, thanks for getting in touch. We’re very sorry for your loss. Are you able to attend an appointment tomorrow morning?",0
+SC1001,2026-09-16T15:22:00.000Z,created,Liam O’Brien,Request created,,0
+SC1001,2026-09-16T15:23:00.000Z,triage,Campus Saathi Triage,AI classified request,Letters · Low urgency,0
+SC1001,2026-09-16T15:23:00.000Z,assigned,Campus Saathi Triage,Assigned to Registry Office,,0
+SC1001,2026-09-16T17:43:31.044Z,assigned,Queue manager,Assigned to Marcus Webb,,0
+SC1001,2026-09-16T18:32:58.815Z,status,Marcus Webb,Status changed from New to In Progress,,0
+SC1001,2026-09-16T18:34:58.815Z,response,Marcus Webb,Response sent to student,"Hi Liam, thanks for getting in touch. Please confirm the address the certificate should show.",0
+SC1001,2026-09-16T18:44:58.815Z,note,Marcus Webb,Internal note added,Record flagged in SITS for the Registry team lead to review.,1
+SC1001,2026-09-18T04:42:03.541Z,student,Liam O’Brien,Student replied,"Thanks, I’ve sent that over now.",0
+SC1001,2026-09-20T19:25:40.722Z,resolved,Marcus Webb,Case resolved,Council tax exemption certificate issued and emailed to student.,0
+SC1002,2026-09-16T21:12:00.000Z,created,Chloe Nguyen,Request created,,0
+SC1002,2026-09-16T21:13:00.000Z,triage,Campus Saathi Triage,AI classified request,Software · Low urgency,0
+SC1002,2026-09-16T21:13:00.000Z,assigned,Campus Saathi Triage,Assigned to IT Service Desk,,0
+SC1002,2026-09-16T23:53:30.832Z,assigned,Queue manager,Assigned to Ben Carlisle,,0
+SC1002,2026-09-17T00:02:54.141Z,status,Ben Carlisle,Status changed from New to In Progress,,0
+SC1002,2026-09-17T00:04:54.141Z,response,Ben Carlisle,Response sent to student,"Hi Chloe, thanks for getting in touch. Which module is the software needed for?",0
+SC1002,2026-09-18T04:04:48.943Z,student,Chloe Nguyen,Student replied,"Thanks, I’ve sent that over now.",0
+SC1002,2026-09-19T02:56:37.892Z,resolved,Ben Carlisle,Case resolved,Licence assigned and download link sent via the Software Hub.,0
+SC1003,2026-09-17T03:16:00.000Z,created,Jonah Fischer,Request created,,0
+SC1003,2026-09-17T03:17:00.000Z,triage,Campus Saathi Triage,AI classified request,Personal details · Low urgency,0
+SC1003,2026-09-17T03:17:00.000Z,assigned,Campus Saathi Triage,Assigned to Registry Office,,0
+SC1003,2026-09-17T03:47:46.479Z,assigned,Queue manager,Assigned to Linda Hart,,0
+SC1003,2026-09-17T04:22:42.978Z,status,Linda Hart,Status changed from New to In Progress,,0
+SC1003,2026-09-17T04:24:42.978Z,response,Linda Hart,Response sent to student,"Hi Jonah, thanks for getting in touch. Please upload a copy of your passport or driving licence so we can update your record.",0
+SC1004,2026-09-17T10:28:00.000Z,created,Kwame Mensah,Request created,,0
+SC1004,2026-09-17T10:29:00.000Z,triage,Campus Saathi Triage,AI classified request,Anxiety · Medium urgency,0
+SC1004,2026-09-17T10:29:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC1004,2026-09-17T12:07:30.529Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC1004,2026-09-17T12:48:51.374Z,status,Sarah Mitchell,Status changed from New to In Progress,,0
+SC1004,2026-09-17T12:50:51.374Z,response,Sarah Mitchell,Response sent to student,"Hi Kwame, thanks for getting in touch. Could you complete the short pre-appointment questionnaire we’ve emailed you?",0
+SC1004,2026-09-17T12:51:51.374Z,status,Sarah Mitchell,Status changed from In Progress to Waiting,Waiting on student,0
+SC1005,2026-09-17T17:47:00.000Z,created,Arjun Mehta,Request created,,0
+SC1005,2026-09-17T17:48:00.000Z,triage,Campus Saathi Triage,AI classified request,Moodle · High urgency,0
+SC1005,2026-09-17T17:48:00.000Z,assigned,Campus Saathi Triage,Assigned to IT Service Desk,,0
+SC1005,2026-09-17T18:45:51.359Z,assigned,Queue manager,Assigned to Nadia Petrova,,0
+SC1005,2026-09-17T19:01:32.740Z,status,Nadia Petrova,Status changed from New to In Progress,,0
+SC1005,2026-09-17T19:03:32.740Z,response,Nadia Petrova,Response sent to student,"Hi Arjun, thanks for getting in touch. Could you list the module codes that are missing?",0
+SC1005,2026-09-17T19:04:32.740Z,status,Nadia Petrova,Status changed from In Progress to Waiting,Waiting on student,0
+SC1006,2026-09-18T00:51:00.000Z,created,Grace Thompson,Request created,,0
+SC1006,2026-09-18T00:52:00.000Z,triage,Campus Saathi Triage,AI classified request,Hardship Fund · High urgency,0
+SC1006,2026-09-18T00:52:00.000Z,assigned,Campus Saathi Triage,Assigned to Student Funding Office,,0
+SC1006,2026-09-18T02:28:12.534Z,assigned,Queue manager,Assigned to Natalie Brooks,,0
+SC1006,2026-09-18T03:14:06.605Z,status,Natalie Brooks,Status changed from New to In Progress,,0
+SC1006,2026-09-18T03:16:06.605Z,response,Natalie Brooks,Response sent to student,"Hi Grace, thanks for getting in touch. Please upload your last three months of bank statements with your application.",0
+SC1007,2026-09-18T06:47:00.000Z,created,Freya Lindqvist,Request created,,0
+SC1007,2026-09-18T06:48:00.000Z,triage,Campus Saathi Triage,AI classified request,Concern for another student · High urgency,0
+SC1007,2026-09-18T06:48:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC1007,2026-09-18T09:34:37.255Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC1007,2026-09-18T09:54:12.886Z,status,Sarah Mitchell,Status changed from New to In Progress,,0
+SC1007,2026-09-18T09:56:12.886Z,response,Sarah Mitchell,Response sent to student,"Hi Freya, thanks for getting in touch. Thank you for letting us know. Can you confirm which hall and flat your flatmate lives in?",0
+SC1008,2026-09-18T15:56:00.000Z,created,Grace Thompson,Request created,,0
+SC1008,2026-09-18T15:57:00.000Z,triage,Campus Saathi Triage,AI classified request,Account access · High urgency,0
+SC1008,2026-09-18T15:57:00.000Z,assigned,Campus Saathi Triage,Assigned to IT Service Desk,,0
+SC1008,2026-09-18T18:44:13.602Z,assigned,Queue manager,Assigned to Ben Carlisle,,0
+SC1008,2026-09-18T19:26:17.179Z,status,Ben Carlisle,Status changed from New to In Progress,,0
+SC1008,2026-09-18T19:28:17.179Z,response,Ben Carlisle,Response sent to student,"Hi Grace, thanks for getting in touch. Please visit the Service Desk in the library with your ID card so we can reset your MFA.",0
+SC1009,2026-09-19T08:02:00.000Z,created,Abhilash Reddy,Request created,,0
+SC1009,2026-09-19T08:03:00.000Z,triage,Campus Saathi Triage,AI classified request,Invoices · Medium urgency,0
+SC1009,2026-09-19T08:03:00.000Z,assigned,Campus Saathi Triage,Assigned to Fees & Income Team,,0
+SC1009,2026-09-19T10:22:00.000Z,assigned,Queue manager,Assigned to Karen Doyle,,0
+SC1009,2026-09-19T11:27:00.000Z,status,Karen Doyle,Status changed from New to In Progress,,0
+SC1009,2026-09-19T11:34:00.000Z,response,Karen Doyle,Response sent to student,"Hi Abhilash, international transfers can take up to five working days to reach us. Could you send a copy of the bank transfer receipt showing the reference number? I’ll match it to your account.",0
+SC1009,2026-09-19T11:37:00.000Z,status,Karen Doyle,Status changed from In Progress to Waiting,Waiting on student,0
+SC1010,2026-09-19T05:25:00.000Z,created,Megan Hughes,Request created,,0
+SC1010,2026-09-19T05:26:00.000Z,triage,Campus Saathi Triage,AI classified request,Exam stress · Medium urgency,0
+SC1010,2026-09-19T05:26:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC1010,2026-09-19T07:40:31.973Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC1010,2026-09-19T08:27:04.823Z,status,Sarah Mitchell,Status changed from New to In Progress,,0
+SC1010,2026-09-19T08:29:04.823Z,response,Sarah Mitchell,Response sent to student,"Hi Megan, thanks for getting in touch. Could you let us know a few times this week that you’d be free for an initial 30-minute appointment?",0
+SC1011,2026-09-19T11:27:00.000Z,created,Mohammed Al-Rashid,Request created,,0
+SC1011,2026-09-19T11:28:00.000Z,triage,Campus Saathi Triage,AI classified request,CV and applications · Low urgency,0
+SC1011,2026-09-19T11:28:00.000Z,assigned,Campus Saathi Triage,Assigned to Careers Service,,0
+SC1011,2026-09-19T13:05:40.928Z,assigned,Queue manager,Assigned to Hollie Parker,,0
+SC1011,2026-09-19T13:48:42.813Z,status,Hollie Parker,Status changed from New to In Progress,,0
+SC1011,2026-09-19T13:50:42.813Z,response,Hollie Parker,Response sent to student,"Hi Mo, thanks for getting in touch. Please upload your current CV and the role you’re targeting.",0
+SC1012,2026-09-19T18:55:00.000Z,created,Callum Fraser,Request created,,0
+SC1012,2026-09-19T18:56:00.000Z,triage,Campus Saathi Triage,AI classified request,Low mood · Medium urgency,0
+SC1012,2026-09-19T18:56:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC1012,2026-09-19T19:56:26.850Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC1012,2026-09-19T20:34:12.150Z,status,Sarah Mitchell,Status changed from New to In Progress,,0
+SC1012,2026-09-19T20:36:12.150Z,response,Sarah Mitchell,Response sent to student,"Hi Callum, thanks for getting in touch. Would you prefer to meet in person at the Hollins Building or over Teams?",0
+SC1013,2026-09-20T00:10:00.000Z,created,Tomás García,Request created,,0
+SC1013,2026-09-20T00:11:00.000Z,triage,Campus Saathi Triage,AI classified request,Placements · High urgency,0
+SC1013,2026-09-20T00:11:00.000Z,assigned,Campus Saathi Triage,Assigned to Careers Service,,0
+SC1013,2026-09-20T00:48:59.905Z,assigned,Queue manager,Assigned to Hollie Parker,,0
+SC1013,2026-09-20T01:37:22.128Z,status,Hollie Parker,Status changed from New to In Progress,,0
+SC1013,2026-09-20T01:39:22.128Z,response,Hollie Parker,Response sent to student,"Hi Tomás, thanks for getting in touch. Could you forward the email from the employer?",0
+SC1013,2026-09-20T01:49:22.128Z,note,Hollie Parker,Internal note added,Employer contacted for more detail.,1
+SC1013,2026-09-20T16:55:52.224Z,student,Tomás García,Student replied,"Thanks, I’ve sent that over now.",0
+SC1013,2026-09-22T15:31:19.996Z,resolved,Hollie Parker,Case resolved,Student matched with an alternative placement and programme transfer options explained.,0
+SC1014,2026-09-20T08:32:00.000Z,created,Kwame Mensah,Request created,,0
+SC1014,2026-09-20T08:33:00.000Z,triage,Campus Saathi Triage,AI classified request,Bereavement · High urgency,0
+SC1014,2026-09-20T08:33:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC1014,2026-09-20T10:44:28.604Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC1014,2026-09-20T11:22:47.785Z,status,Sarah Mitchell,Status changed from New to In Progress,,0
+SC1014,2026-09-20T11:24:47.785Z,response,Sarah Mitchell,Response sent to student,"Hi Kwame, thanks for getting in touch. We’re very sorry for your loss. Are you able to attend an appointment tomorrow morning?",0
+SC1014,2026-09-20T11:34:47.785Z,note,Sarah Mitchell,Internal note added,Risk screen completed – no immediate risk indicated. Offer next available slot.,1
+SC1014,2026-09-24T06:20:41.029Z,assigned,Sarah Mitchell,Assigned to Dr Tom Adeyemi,,0
+SC1015,2026-09-20T13:47:00.000Z,created,Ryan Patel,Request created,,0
+SC1015,2026-09-20T13:48:00.000Z,triage,Campus Saathi Triage,AI classified request,Exam arrangements · High urgency,0
+SC1015,2026-09-20T13:48:00.000Z,assigned,Campus Saathi Triage,Assigned to Disability Advice Team,,0
+SC1015,2026-09-20T14:41:21.378Z,assigned,Queue manager,Assigned to Sam Rivera,,0
+SC1015,2026-09-20T15:27:50.326Z,status,Sam Rivera,Status changed from New to In Progress,,0
+SC1015,2026-09-20T15:29:50.326Z,response,Sam Rivera,Response sent to student,"Hi Ryan, thanks for getting in touch. Please upload a copy of your diagnostic assessment report.",0
+SC1015,2026-09-21T04:44:44.173Z,student,Ryan Patel,Student replied,"Thanks, I’ve sent that over now.",0
+SC1015,2026-09-23T03:47:56.306Z,resolved,Sam Rivera,Case resolved,"Support plan agreed: 25% extra time, use of a PC and a smaller exam room.",0
+SC1016,2026-09-20T22:16:00.000Z,created,Tomás García,Request created,,0
+SC1016,2026-09-20T22:17:00.000Z,triage,Campus Saathi Triage,AI classified request,Account access · Medium urgency,0
+SC1016,2026-09-20T22:17:00.000Z,assigned,Campus Saathi Triage,Assigned to IT Service Desk,,0
+SC1016,2026-09-21T00:09:55.353Z,assigned,Queue manager,Assigned to Nadia Petrova,,0
+SC1016,2026-09-21T00:54:36.168Z,status,Nadia Petrova,Status changed from New to In Progress,,0
+SC1016,2026-09-21T00:56:36.168Z,response,Nadia Petrova,Response sent to student,"Hi Tomás, thanks for getting in touch. Please confirm the phone number registered for your MFA so we can verify your identity.",0
+SC1016,2026-09-21T01:06:36.168Z,note,Nadia Petrova,Internal note added,Account shows repeated failed sign-ins from the student’s own device – not a security concern.,1
+SC1016,2026-09-21T12:21:56.535Z,student,Tomás García,Student replied,"Thanks, I’ve sent that over now.",0
+SC1016,2026-09-22T13:07:39.607Z,resolved,Nadia Petrova,Case resolved,Account unlocked and MFA re-registered. Student confirmed access to Moodle and Outlook.,0
+SC1017,2026-09-21T04:54:00.000Z,created,Ryan Patel,Request created,,0
+SC1017,2026-09-21T04:55:00.000Z,triage,Campus Saathi Triage,AI classified request,Attendance monitoring · High urgency,0
+SC1017,2026-09-21T04:55:00.000Z,assigned,Campus Saathi Triage,Assigned to International Student Advice,,0
+SC1018,2026-09-21T10:02:00.000Z,created,Wei Zhang,Request created,,0
+SC1018,2026-09-21T10:03:00.000Z,triage,Campus Saathi Triage,AI classified request,Bursaries · Low urgency,0
+SC1018,2026-09-21T10:03:00.000Z,assigned,Campus Saathi Triage,Assigned to Student Funding Office,,0
+SC1019,2026-09-22T03:02:00.000Z,created,Abhilash Reddy,Request created,,0
+SC1019,2026-09-22T03:03:00.000Z,triage,Campus Saathi Triage,AI classified request,Loans and fines · Low urgency,0
+SC1019,2026-09-22T03:03:00.000Z,assigned,Campus Saathi Triage,Assigned to Library Customer Services,,0
+SC1020,2026-09-22T00:25:00.000Z,created,Jonah Fischer,Request created,,0
+SC1020,2026-09-22T00:26:00.000Z,triage,Campus Saathi Triage,AI classified request,Extenuating circumstances · High urgency,0
+SC1020,2026-09-22T00:26:00.000Z,assigned,Campus Saathi Triage,Assigned to Academic Advice Team,,0
+SC1020,2026-09-22T03:11:11.828Z,assigned,Queue manager,Assigned to Rachel Moore,,0
+SC1020,2026-09-22T03:51:59.446Z,status,Rachel Moore,Status changed from New to In Progress,,0
+SC1020,2026-09-22T03:53:59.446Z,response,Rachel Moore,Response sent to student,"Hi Jonah, thanks for getting in touch. Could you send any supporting evidence you have? A letter from a professional is ideal but not required.",0
+SC1020,2026-09-23T07:57:57.387Z,student,Jonah Fischer,Student replied,"Thanks, I’ve sent that over now.",0
+SC1020,2026-09-24T05:38:55.334Z,resolved,Rachel Moore,Case resolved,Claim submitted to the EC panel and accepted. Student will sit both exams as first attempts in the August period.,0
+SC1021,2026-09-22T06:04:00.000Z,created,Aisha Bello,Request created,,0
+SC1021,2026-09-22T06:05:00.000Z,triage,Campus Saathi Triage,AI classified request,Personal safety · High urgency,0
+SC1021,2026-09-22T06:05:00.000Z,assigned,Campus Saathi Triage,Assigned to Security Control Room,,0
+SC1021,2026-09-22T07:42:26.433Z,assigned,Queue manager,Assigned to Kelly Shaw,,0
+SC1021,2026-09-22T08:16:16.232Z,status,Kelly Shaw,Status changed from New to In Progress,,0
+SC1021,2026-09-22T08:18:16.232Z,response,Kelly Shaw,Response sent to student,"Hi Aisha, thanks for getting in touch. Please call the Security Lodge on 01632 960 444 if this happens again. Could you describe the person?",0
+SC1022,2026-09-22T14:38:00.000Z,created,Priya Sharma,Request created,,0
+SC1022,2026-09-22T14:39:00.000Z,triage,Campus Saathi Triage,AI classified request,Module changes · Low urgency,0
+SC1022,2026-09-22T14:39:00.000Z,assigned,Campus Saathi Triage,Assigned to Academic Advice Team,,0
+SC1022,2026-09-22T15:40:50.892Z,assigned,Queue manager,Assigned to Rachel Moore,,0
+SC1022,2026-09-22T15:51:12.519Z,status,Rachel Moore,Status changed from New to In Progress,,0
+SC1022,2026-09-22T15:53:12.519Z,response,Rachel Moore,Response sent to student,"Hi Priya, thanks for getting in touch. Which module would you like to move to? Please check it doesn’t clash with your timetable.",0
+SC1023,2026-09-22T19:52:00.000Z,created,Callum Fraser,Request created,,0
+SC1023,2026-09-22T19:53:00.000Z,triage,Campus Saathi Triage,AI classified request,Anxiety · Medium urgency,0
+SC1023,2026-09-22T19:53:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC1023,2026-09-22T22:42:17.516Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC1024,2026-09-23T05:02:00.000Z,created,Abhilash Reddy,Request created,,0
+SC1024,2026-09-23T05:03:00.000Z,triage,Campus Saathi Triage,AI classified request,Exam stress · Medium urgency,0
+SC1024,2026-09-23T05:03:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC1024,2026-09-23T05:20:00.000Z,assigned,Queue manager,Assigned to Sarah Mitchell,,0
+SC1024,2026-09-23T05:34:00.000Z,status,Sarah Mitchell,Staff updated status,Status changed from New to In Progress,0
+SC1024,2026-09-23T05:36:00.000Z,response,Sarah Mitchell,Response sent to student,"Hi Abhilash, thanks for reaching out – lots of students feel like this in the run-up to exams, and you’ve done the right thing by getting in touch. I have a free slot on Thursday at 2:00 pm in the Hollins Building. Would that work for you?",0
+SC1025,2026-09-23T08:32:00.000Z,created,Callum Fraser,Request created,,0
+SC1025,2026-09-23T08:33:00.000Z,triage,Campus Saathi Triage,AI classified request,Wi-Fi · Low urgency,0
+SC1025,2026-09-23T08:33:00.000Z,assigned,Campus Saathi Triage,Assigned to IT Service Desk,,0
+SC1025,2026-09-23T10:56:59.099Z,assigned,Queue manager,Assigned to Nadia Petrova,,0
+SC1025,2026-09-23T11:39:35.218Z,status,Nadia Petrova,Status changed from New to In Progress,,0
+SC1025,2026-09-23T11:41:35.218Z,response,Nadia Petrova,Response sent to student,"Hi Callum, thanks for getting in touch. Could you tell us your laptop model and operating system?",0
+SC1025,2026-09-23T11:51:35.218Z,note,Nadia Petrova,Internal note added,Account shows repeated failed sign-ins from the student’s own device – not a security concern.,1
+SC1026,2026-09-23T12:03:00.000Z,created,Freya Lindqvist,Request created,,0
+SC1026,2026-09-23T12:04:00.000Z,triage,Campus Saathi Triage,AI classified request,Scholarships · Low urgency,0
+SC1026,2026-09-23T12:04:00.000Z,assigned,Campus Saathi Triage,Assigned to Student Funding Office,,0
+SC1026,2026-09-23T13:47:28.631Z,assigned,Queue manager,Assigned to Natalie Brooks,,0
+SC1027,2026-09-23T15:34:00.000Z,created,Liam O’Brien,Request created,,0
+SC1027,2026-09-23T15:35:00.000Z,triage,Campus Saathi Triage,AI classified request,Sponsor billing · Medium urgency,0
+SC1027,2026-09-23T15:35:00.000Z,assigned,Campus Saathi Triage,Assigned to Fees & Income Team,,0
+SC1028,2026-09-23T19:04:00.000Z,created,Callum Fraser,Request created,,0
+SC1028,2026-09-23T19:05:00.000Z,triage,Campus Saathi Triage,AI classified request,Concern for another student · High urgency,0
+SC1028,2026-09-23T19:05:00.000Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
+SC1029,2026-09-23T22:35:00.000Z,created,Wei Zhang,Request created,,0
+SC1029,2026-09-23T22:36:00.000Z,triage,Campus Saathi Triage,AI classified request,Software · Low urgency,0
+SC1029,2026-09-23T22:36:00.000Z,assigned,Campus Saathi Triage,Assigned to IT Service Desk,,0
+SC1029,2026-09-23T23:56:19.678Z,assigned,Queue manager,Assigned to Nadia Petrova,,0
+SC1029,2026-09-24T00:52:50.392Z,status,Nadia Petrova,Status changed from New to In Progress,,0
+SC1029,2026-09-24T00:54:50.392Z,response,Nadia Petrova,Response sent to student,"Hi Wei, thanks for getting in touch. Which module is the software needed for?",0
+SC1030,2026-09-24T02:06:00.000Z,created,Aisha Bello,Request created,,0
+SC1030,2026-09-24T02:07:00.000Z,triage,Campus Saathi Triage,AI classified request,Enrolment · Medium urgency,0
+SC1030,2026-09-24T02:07:00.000Z,assigned,Campus Saathi Triage,Assigned to Registry Office,,0
+SC1030,2026-09-24T04:10:08.689Z,assigned,Queue manager,Assigned to Marcus Webb,,0
+SC1030,2026-09-24T04:41:44.106Z,status,Marcus Webb,Status changed from New to In Progress,,0
+SC1030,2026-09-24T04:43:44.106Z,response,Marcus Webb,Response sent to student,"Hi Aisha, thanks for getting in touch. Could you send a screenshot of the enrolment page you’re seeing?",0
+SC1031,2026-09-24T06:01:45.320Z,created,Abhilash Reddy,Request created,,0
+SC1031,2026-09-24T06:01:45.320Z,triage,Campus Saathi Triage,AI classified request,Fees and payments · Medium urgency,0
+SC1031,2026-09-24T06:01:45.320Z,assigned,Campus Saathi Triage,Assigned to Fees & Income Team,,0
+SC1032,2026-09-24T06:19:38.579Z,created,Abhilash Reddy,Request created,,0
+SC1032,2026-09-24T06:19:38.579Z,triage,Campus Saathi Triage,AI classified request,Exam stress · Medium urgency,0
+SC1032,2026-09-24T06:19:38.579Z,assigned,Campus Saathi Triage,Assigned to Counselling Centre,,0
