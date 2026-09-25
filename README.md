@@ -1,6 +1,6 @@
 # Campus Saathi
 
-Student support portal prototype for Northbridge University. Students describe a problem in their own words, Campus Saathi suggests the right service, and staff work the resulting cases.
+Student support portal prototype for Northbridge University. Students describe a problem in their own words, Campus Saathi suggests the right service, and staff work the resulting case .
 
 ## Project layout
 
