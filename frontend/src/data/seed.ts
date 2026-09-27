@@ -241,7 +241,6 @@ const TEMPLATES: Record<string, Template[]> = {
   ],
 };
 
-// Relative volume per department, used when generating the seed history.
 const WEIGHTS: Record<string, number> = {
   counselling: 21, it: 13, finance: 12, accommodation: 10, advising: 9, aid: 8,
   registry: 8, international: 7, disability: 6, library: 4, careers: 3, security: 2,
@@ -265,7 +264,6 @@ export const caseId = (n: number) => `SC${String(n).padStart(4, '0')}`;
 
 export const TRIAGE_ACTOR = 'Campus Saathi Triage';
 
-/** The morning anchor for SC1024 — today at 10:32, or yesterday if it's too early. */
 function anchorTime(now: Date) {
   const a = new Date(now);
   a.setHours(10, 32, 0, 0);
@@ -415,9 +413,7 @@ function internalNoteFor(deptId: string) {
   return notes[deptId];
 }
 
-/* ------------------------------------------------------------------
-   Hand-authored cases for the demo student (Abhilash Reddy)
-   ------------------------------------------------------------------ */
+
 
 const SPECIAL: Record<number, (anchor: number, now: number) => Case> = {
   1024: (anchor) => {

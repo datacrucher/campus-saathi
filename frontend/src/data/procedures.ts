@@ -1,10 +1,4 @@
-/**
- * Step-by-step office procedures a student can complete in person.
- * When a request matches one of these, the student is offered two options:
- * follow the route themselves, or raise a request online.
- *
- * Edit rooms, people and turnaround times here — nothing else needs to change.
- */
+
 
 export interface ProcedureStep {
   who: string;      // person or office to visit

@@ -1,7 +1,4 @@
-/* ==========================================================================
-   Campus Saathi design system
-   One brand colour, neutral surfaces, subtle borders, small radii.
-   ========================================================================== */
+
 
 :root {
   --brand: #17595c;
@@ -24,7 +21,6 @@
   --nav-dark-2: #2a393c;
   --nav-dark-text: #d5dddf;
 
-  /* status */
   --info: #1f5d96;      --info-bg: #e7f0f8;
   --warn: #8a5300;      --warn-bg: #fcf1dc;
   --wait: #5a4a8c;      --wait-bg: #efecf6;
@@ -86,7 +82,6 @@ svg { flex-shrink: 0; }
 .small { font-size: 13px; }
 .nowrap { white-space: nowrap; }
 
-/* ---------- Layout ---------- */
 
 .container {
   width: 100%;
@@ -123,7 +118,6 @@ svg { flex-shrink: 0; }
   .grid-2, .grid-2.even { grid-template-columns: minmax(0, 1fr); }
 }
 
-/* ---------- Panels ---------- */
 
 .panel {
   background: var(--surface);
@@ -142,7 +136,6 @@ svg { flex-shrink: 0; }
 
 .section-title { font-size: 13px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 10px; }
 
-/* ---------- Buttons ---------- */
 
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 6px;
@@ -180,7 +173,6 @@ svg { flex-shrink: 0; }
 }
 @keyframes spin { to { transform: rotate(360deg); } }
 
-/* ---------- Forms ---------- */
 
 .field { display: flex; flex-direction: column; gap: 6px; }
 .field + .field { margin-top: 16px; }
@@ -222,7 +214,6 @@ svg { flex-shrink: 0; }
 .input-icon > svg { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: var(--muted); pointer-events: none; }
 .input-icon > .input { padding-left: 34px; }
 
-/* ---------- Badges ---------- */
 
 .badge {
   display: inline-flex; align-items: center; gap: 5px;
@@ -245,7 +236,6 @@ svg { flex-shrink: 0; }
 .priority.medium::before { background: #c98a14; }
 .priority.low::before { background: #9aa4ab; }
 
-/* ---------- Tables ---------- */
 
 .table-wrap { overflow-x: auto; }
 .table { width: 100%; border-collapse: collapse; font-size: 14px; }
@@ -267,7 +257,6 @@ svg { flex-shrink: 0; }
 }
 .table th button.sort:focus-visible { outline: 2px solid var(--focus); }
 
-/* Stack rows into cards on small screens */
 @media (max-width: 760px) {
   .table.responsive thead { display: none; }
   .table.responsive, .table.responsive tbody, .table.responsive tr, .table.responsive td { display: block; width: 100%; }
@@ -286,7 +275,6 @@ svg { flex-shrink: 0; }
   .table tbody tr.clickable:hover { background: #f6f9f9; }
 }
 
-/* ---------- Tabs / segmented filters ---------- */
 
 .tabs { display: flex; gap: 2px; border-bottom: 1px solid var(--border); overflow-x: auto; scrollbar-width: none; }
 .tabs::-webkit-scrollbar { display: none; }
@@ -312,7 +300,6 @@ svg { flex-shrink: 0; }
   .toolbar .select { flex: 1 1 140px; }
 }
 
-/* ---------- Empty / loading / error states ---------- */
 
 .state {
   display: flex; flex-direction: column; align-items: center; text-align: center;
@@ -344,7 +331,6 @@ svg { flex-shrink: 0; }
 .alert.warn { background: var(--warn-bg); border-color: #efd9a8; color: #5c3900; }
 .alert strong { font-weight: 600; }
 
-/* ---------- Header / navigation ---------- */
 
 .app-header {
   position: sticky; top: 0; z-index: 40;
@@ -453,7 +439,6 @@ svg { flex-shrink: 0; }
 .app-footer nav { display: flex; gap: 16px; flex-wrap: wrap; }
 .app-footer a { color: var(--text-2); }
 
-/* ---------- Toasts ---------- */
 
 .toast-region {
   position: fixed; bottom: 20px; right: 20px; z-index: 100;
@@ -476,7 +461,6 @@ svg { flex-shrink: 0; }
 .toast .t-close:hover { color: #fff; }
 @keyframes toast-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
 
-/* ---------- Dialog ---------- */
 
 .dialog-backdrop {
   position: fixed; inset: 0; z-index: 90; background: rgba(20, 28, 31, 0.4);
@@ -492,7 +476,6 @@ svg { flex-shrink: 0; }
 .dialog .dialog-foot { padding: 12px 20px; border-top: 1px solid var(--border); display: flex; justify-content: flex-end; gap: 8px; background: var(--surface-alt); border-radius: 0 0 var(--r-md) var(--r-md); }
 @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
 
-/* ---------- Definition lists ---------- */
 
 .dl { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 10px 16px; font-size: 14px; margin: 0; }
 .dl dt { color: var(--muted); }
@@ -503,7 +486,6 @@ svg { flex-shrink: 0; }
   .dl { grid-template-columns: 120px minmax(0, 1fr); }
 }
 
-/* ---------- Timeline ---------- */
 
 .timeline { list-style: none; margin: 0; padding: 0; }
 .timeline li { display: grid; grid-template-columns: 76px 16px minmax(0, 1fr); gap: 0 12px; position: relative; }
@@ -533,7 +515,6 @@ svg { flex-shrink: 0; }
   .timeline .t-time .t-date { display: inline; margin-left: 6px; }
 }
 
-/* ---------- Metric strip ---------- */
 
 .metrics {
   display: grid; grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -559,7 +540,6 @@ svg { flex-shrink: 0; }
   .metric .m-value { font-size: 20px; }
 }
 
-/* ---------- Bar chart ---------- */
 
 .hbar-chart { list-style: none; margin: 0; padding: 0; }
 .hbar-row {
@@ -615,12 +595,10 @@ svg { flex-shrink: 0; }
 .chart-toggle button + button { border-left: 1px solid var(--border-strong); }
 .chart-toggle button.on { background: var(--brand-soft); color: var(--brand); }
 
-/* ---------- Progress bar ---------- */
 
 .meter { height: 6px; background: var(--neutral-bg); border-radius: 3px; overflow: hidden; }
 .meter > span { display: block; height: 100%; background: var(--brand); border-radius: 3px; }
 
-/* ---------- Utility list ---------- */
 
 .list { list-style: none; margin: 0; padding: 0; }
 .list > li { border-bottom: 1px solid var(--border); }
@@ -645,7 +623,6 @@ svg { flex-shrink: 0; }
 
 .divider { height: 1px; background: var(--border); margin: 20px 0; border: 0; }
 
-/* ---------- Login ---------- */
 
 .login { min-height: 100vh; display: grid; grid-template-columns: minmax(360px, 5fr) 7fr; background: var(--bg); }
 .login-brand { background: var(--brand); color: #e3eeee; position: relative; }
@@ -695,7 +672,6 @@ svg { flex-shrink: 0; }
   .login-main { padding: 16px; background: var(--surface); min-height: 100vh; }
 }
 
-/* ---------- Steps ---------- */
 
 .steps { list-style: none; counter-reset: step; margin: 0; padding: 0; display: grid; gap: 16px; }
 .steps li { counter-increment: step; display: grid; grid-template-columns: 28px 1fr; gap: 2px 12px; font-size: 14px; }

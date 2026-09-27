@@ -13,12 +13,10 @@ export interface SessionUser {
 
 interface AuthValue {
   user: SessionUser | null;
-  /** True until the first /auth/me check finishes. */
   checking: boolean;
   signInAs: (role: Role, remember?: boolean) => Promise<SessionUser>;
   signInWithEmail: (email: string, password: string, remember: boolean) => Promise<SessionUser>;
   signOut: () => Promise<void>;
-  /** Called when the API reports the session has ended. */
   sessionExpired: () => void;
 }
 

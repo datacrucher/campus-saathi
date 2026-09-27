@@ -21,7 +21,6 @@ export interface CasePatch {
 
 interface CaseStoreValue {
   cases: Case[];
-  /** True only for the first load after sign-in. */
   loading: boolean;
   error: string | null;
   reload: () => Promise<void>;
@@ -45,7 +44,6 @@ export function CaseStoreProvider({ children }: { children: ReactNode }) {
   const loading = !!userId && loadedFor !== userId;
   const loadSeq = useRef(0);
 
-  /** Wraps API calls so an expired session sends the user back to sign in. */
   const call = useCallback(async <T,>(fn: () => Promise<T>): Promise<T> => {
     try {
       return await fn();
@@ -65,7 +63,6 @@ export function CaseStoreProvider({ children }: { children: ReactNode }) {
     }
   }, [call]);
 
-  // Load on sign-in, clear on sign-out, then refresh in the background.
   useEffect(() => {
     setCases([]);
     setError(null);

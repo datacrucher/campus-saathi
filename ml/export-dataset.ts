@@ -1,8 +1,4 @@
-/**
- * Exports the app's current data from the SQLite database to CSV files in ml/dataset/.
- *
- *   npm run dataset:export
- */
+
 import { writeFileSync } from 'node:fs';
 import { db } from '../backend/db';
 import { toCsv } from './csv';

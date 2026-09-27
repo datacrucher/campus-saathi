@@ -37,7 +37,6 @@ export default function CaseDetail({ role }: { role: Extract<Role, 'staff' | 'ad
   const [notifyStudent, setNotifyStudent] = useState(true);
   const [busy, setBusy] = useState<string | null>(null);
 
-  // Keep the edit panel in sync with the saved case.
   useEffect(() => {
     if (!c) return;
     setStatus(c.status);
@@ -73,7 +72,6 @@ export default function CaseDetail({ role }: { role: Extract<Role, 'staff' | 'ad
 
   const dirty = status !== c.status || priority !== c.priority || (assignee || null) !== c.assigneeId || dept !== c.departmentId;
 
-  /** Runs a server action, showing a toast on success or failure. Returns true if it succeeded. */
   const run = async (action: string, fn: () => Promise<unknown>, success: string, detail?: string) => {
     setBusy(action);
     try {
@@ -374,7 +372,6 @@ export default function CaseDetail({ role }: { role: Extract<Role, 'staff' | 'ad
 
 function capitalise(s: string) { return s.charAt(0).toUpperCase() + s.slice(1); }
 
-/** The department the triage originally routed to (before any transfer). */
 function triageDept(activity: ActivityEntry[]) {
   const first = activity.find((a) => a.actor === TRIAGE_ACTOR && a.kind === 'assigned');
   if (!first) return undefined;

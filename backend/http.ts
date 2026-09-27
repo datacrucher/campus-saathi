@@ -6,7 +6,6 @@ export class HttpError extends Error {
   }
 }
 
-/** Wraps a handler so thrown errors reach the error middleware. */
 export const handler = (fn: (req: Request, res: Response) => unknown): RequestHandler =>
   (req, res, next) => {
     try {
@@ -30,7 +29,6 @@ export function errorMiddleware(err: unknown, _req: Request, res: Response, _nex
   res.status(500).json({ error: 'Something went wrong on our side. Please try again.' });
 }
 
-// ---- small validators ----
 
 export function str(value: unknown, field: string, { min = 1, max = 5000 } = {}) {
   if (typeof value !== 'string') throw new HttpError(400, `${field} is required.`);

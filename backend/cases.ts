@@ -18,9 +18,7 @@ interface CaseRow {
 }
 interface ActivityRow { id: string; case_id: string; at: string; kind: ActivityEntry['kind']; actor: string; text: string; body: string | null; internal: number }
 
-// ---------- reading ----------
 
-/** SQL filter limiting rows to what the signed-in user may see. */
 function scope(req: Request): { where: string; params: string[] } {
   const u = req.user!;
   if (u.role === 'student') return { where: 'c.student_id = ?', params: [u.id] };
@@ -43,7 +41,6 @@ function toCase(row: CaseRow, activity: ActivityRow[], forStudent: boolean): Cas
     updatedAt: row.updated_at,
     assigneeId: row.assignee_id,
     contactPreference: row.contact_preference,
-    // Students see the outcome of triage, not the model's internals.
     triage: forStudent ? { ...t, confidence: 0, signals: [] } : t,
     activity: activity
       .filter((a) => !(forStudent && (a.internal || a.kind === 'note')))
@@ -70,7 +67,6 @@ function listCases(req: Request): Case[] {
   return rows.map((r) => toCase(r, byCase.get(r.id) ?? [], forStudent));
 }
 
-/** Loads one case the user may see, or throws 404 (never reveals that a hidden case exists). */
 function loadCase(req: Request, id: string): Case {
   const { where, params } = scope(req);
   const row = db.prepare(`SELECT c.* FROM cases c WHERE c.id = ? AND ${where}`).get(id.toUpperCase(), ...params) as CaseRow | undefined;
@@ -79,7 +75,6 @@ function loadCase(req: Request, id: string): Case {
   return toCase(row, acts, req.user!.role === 'student');
 }
 
-// ---------- writing ----------
 
 const now = () => new Date().toISOString();
 
@@ -108,13 +103,11 @@ casesRouter.get('/cases/:id', requireRole(), handler((req, res) => {
   res.json({ case: loadCase(req, req.params.id) });
 }));
 
-/** Suggests a service for the student's description. */
 casesRouter.post('/triage', requireRole('student'), handler(async (req, res) => {
   const text = str(req.body?.text, 'Description', { min: 3, max: 5000 });
   res.json(await analyse(text));
 }));
 
-/** Student submits a request. The server re-runs triage rather than trusting client-supplied urgency. */
 casesRouter.post('/cases', requireRole('student'), handler((req, res) => {
   const title = str(req.body?.title, 'Summary', { max: 90 });
   const description = str(req.body?.description, 'Details', { min: 15, max: 5000 });
@@ -123,13 +116,11 @@ casesRouter.post('/cases', requireRole('student'), handler((req, res) => {
   const team = teamName(departmentId);
   if (!team) throw new HttpError(400, 'Choose a valid service.');
 
-  // Reuse the AI analysis the student just saw; otherwise fall back to the keyword rules.
   const result = cachedTriage(description) ?? triage(`${title}. ${description}`);
   const match = [result.best, ...result.alternatives].find((m) => m?.dept === departmentId);
   const t = match
     ? { category: match.category, urgency: match.urgency, reason: match.reason, confidence: match.confidence, signals: match.signals }
     : { category: 'General enquiry', urgency: 'Medium' as Priority, reason: 'The student chose this service themselves.', confidence: 1, signals: [] };
-  // A crisis flag anywhere in the text always makes the case high priority.
   const priority: Priority = result.best?.crisis || result.best?.safety ? 'High' : t.urgency;
 
   const id = tx(() => {
@@ -151,7 +142,6 @@ casesRouter.post('/cases', requireRole('student'), handler((req, res) => {
   res.status(201).json({ case: loadCase(req, id) });
 }));
 
-/** Staff/admin change status, priority, assignee or (admin only) department. */
 casesRouter.patch('/cases/:id', requireRole('staff', 'admin'), handler((req, res) => {
   const c = loadCase(req, req.params.id);
   const actor = req.user!.name;
@@ -194,7 +184,6 @@ casesRouter.patch('/cases/:id', requireRole('staff', 'admin'), handler((req, res
   res.json({ case: loadCase(req, c.id) });
 }));
 
-/** Adds a message: staff response, internal note, or student reply. */
 casesRouter.post('/cases/:id/messages', requireRole(), handler((req, res) => {
   const c = loadCase(req, req.params.id);
   const body = str(req.body?.body, 'Message', { min: 2, max: 5000 });

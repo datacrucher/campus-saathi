@@ -50,7 +50,6 @@ export default function FindSupport() {
   const [chosen, setChosen] = useState('');
   const headingRef = useRef<HTMLHeadingElement>(null);
 
-  // confirm form
   const [title, setTitle] = useState('');
   const [details, setDetails] = useState('');
   const [contact, setContact] = useState<Case['contactPreference']>('Email');
@@ -83,10 +82,8 @@ export default function FindSupport() {
       });
   };
 
-  // If the student arrived from the home page with text, go straight to the suggestion.
   useEffect(() => {
     if (initialQuery && !presetService) run(initialQuery);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const onDescribe = (e: FormEvent) => { e.preventDefault(); run(text); };

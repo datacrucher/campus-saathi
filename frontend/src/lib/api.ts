@@ -4,7 +4,6 @@ export class ApiError extends Error {
   }
 }
 
-/** JSON request to the Campus Saathi API. Throws ApiError with the server's message on failure. */
 export async function api<T>(path: string, options: { method?: string; body?: unknown } = {}): Promise<T> {
   let res: Response;
   try {

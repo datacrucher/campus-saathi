@@ -18,7 +18,6 @@ function isSameDay(a: Date, b: Date) {
   return a.getFullYear() === b.getFullYear() && a.getMonth() === b.getMonth() && a.getDate() === b.getDate();
 }
 
-/** Short day label used in timelines: "Today", "Yesterday", or "12 Sep". */
 export function dayLabel(iso: string) {
   const d = new Date(iso);
   const now = new Date();
@@ -63,7 +62,6 @@ export function greeting(date = new Date()) {
 export const ageMs = (iso: string) => Date.now() - new Date(iso).getTime();
 export { HOUR, DAY };
 
-/** "updated 3 hrs ago", "updated yesterday", "updated on 12 Sep 2026" */
 export function updatedPhrase(iso: string) {
   const r = relativeTime(iso);
   return /\d{4}$/.test(r) ? `on ${r}` : r.toLowerCase();

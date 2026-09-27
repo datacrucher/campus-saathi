@@ -18,12 +18,10 @@ function useTip() {
 
 export interface HBarDatum { id: string; label: string; value: number; detail?: [string, number | string][] }
 
-/** Single-series horizontal bar chart. Sorted by value, directly labelled, with a hover tooltip. */
 export function HBarChart({ data, onSelect, valueLabel }: { data: HBarDatum[]; onSelect?: (id: string) => void; valueLabel: string }) {
   const { ref, show, hide, node } = useTip();
   const sorted = [...data].sort((a, b) => b.value - a.value);
   const max = niceMax(Math.max(1, ...sorted.map((d) => d.value)));
-    // Five equal steps when the max divides cleanly (0–25 → 0, 5, 10…), otherwise quarters.
   const steps = max % 5 === 0 ? 5 : 4;
   const ticks = Array.from({ length: steps + 1 }, (_, i) => Math.round((max / steps) * i));
 
@@ -65,7 +63,6 @@ export function HBarChart({ data, onSelect, valueLabel }: { data: HBarDatum[]; o
 
 export interface VBarDatum { key: string; label: string; tick?: string; value: number; muted?: boolean }
 
-/** Single-series column chart for counts over time. */
 export function VBarChart({ data, valueLabel, height = 180 }: { data: VBarDatum[]; valueLabel: string; height?: number }) {
   const { ref, show, hide, node } = useTip();
   const max = niceMax(Math.max(1, ...data.map((d) => d.value)));
