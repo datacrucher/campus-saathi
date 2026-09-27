@@ -11,7 +11,6 @@ export function FullPageSpinner() {
   );
 }
 
-/** Sends signed-out visitors to /login, and signed-in users of another role to their own home. */
 export function RequireRole({ role, children }: { role: Role; children: ReactNode }) {
   const { user, checking } = useAuth();
   const location = useLocation();

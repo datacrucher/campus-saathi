@@ -5,11 +5,7 @@ import { z } from 'zod';
 import { DEPARTMENTS, departmentById } from '../frontend/src/data/directory';
 import { triage as ruleTriage, type TriageMatch, type TriageResult } from './triage';
 
-/**
- * AI triage: Claude reads the student's whole description and picks the service,
- * urgency and self-help steps. Falls back to the keyword rules if the API is
- * unavailable, not configured, or declines.
- */
+
 
 const MODEL = process.env.TRIAGE_MODEL ?? 'claude-opus-5';
 const DEPT_IDS = DEPARTMENTS.map((d) => d.id) as [string, ...string[]];
@@ -31,7 +27,6 @@ const directory = DEPARTMENTS.map((d) =>
   `Location: ${d.location}. Hours: ${d.hours}. Phone: ${d.phone}. Email: ${d.email}.`,
 ).join('\n');
 
-// Frozen system prompt (no per-request content) so it caches across requests.
 const SYSTEM = `You triage student support requests for Campus Saathi, the student support portal at Northbridge University (UK).
 
 Read the student's description carefully — they may use informal language, abbreviations (e.g. "AC", "hostel", "wifi"), spelling mistakes, or describe several problems at once. Work out what is actually wrong and which service is best placed to help.
@@ -54,14 +49,12 @@ let client: Anthropic | null = null;
 let disabledUntil = 0;
 
 function getClient() {
-  // The SDK reads ANTHROPIC_API_KEY (or other configured credentials) from the environment.
   if (!client) client = new Anthropic({ timeout: 25_000, maxRetries: 1 });
   return client;
 }
 
 export const aiConfigured = () => !!(process.env.ANTHROPIC_API_KEY || process.env.ANTHROPIC_AUTH_TOKEN) && process.env.AI_TRIAGE !== 'off';
 
-// Remember recent AI results so submitting a request doesn't pay for a second call.
 const cache = new Map<string, { result: TriageResult; at: number }>();
 const CACHE_MS = 60 * 60 * 1000;
 const keyFor = (text: string) => createHash('sha256').update(text.trim().toLowerCase().replace(/\s+/g, ' ')).digest('hex');
@@ -76,7 +69,6 @@ export type AnalysedResult = TriageResult & { source: 'ai' | 'rules' };
 export async function analyse(text: string): Promise<AnalysedResult> {
   const cached = cachedTriage(text);
   if (cached) return { ...cached, source: 'ai' };
-  // Known office procedures have fixed, correct steps — no AI call needed.
   const rules = ruleTriage(text);
   if (rules.best?.procedureId) return { ...rules, source: 'rules' };
   if (!aiConfigured() || Date.now() < disabledUntil) return { ...rules, source: 'rules' };
@@ -112,7 +104,6 @@ export async function analyse(text: string): Promise<AnalysedResult> {
 }
 
 function toResult(o: z.infer<typeof TriageSchema>, text: string): TriageResult {
-  // Safety rules are enforced in code as well as in the prompt.
   const rules = ruleTriage(text);
   const crisis = o.crisis || !!rules.best?.crisis;
   const safety = !crisis && (o.safety || !!rules.best?.safety);

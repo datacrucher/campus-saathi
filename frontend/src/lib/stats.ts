@@ -4,7 +4,6 @@ import { DAY, HOUR } from './format';
 
 export const PRIORITY_RANK: Record<Priority, number> = { High: 0, Medium: 1, Low: 2 };
 
-/** Response targets in hours, matching each department's published target. */
 export const TARGET_HOURS: Record<string, number> = {
   counselling: 24, advising: 48, registry: 72, finance: 48, aid: 48, accommodation: 24,
   it: 4, library: 48, disability: 72, international: 48, careers: 72, security: 1,
@@ -62,7 +61,6 @@ export function departmentStats(cases: Case[]): DeptStats[] {
 
 export interface AttentionItem { c: Case; reason: string }
 
-/** Cases a service manager should look at: urgent, stalled or unassigned for too long. */
 export function needsAttention(cases: Case[], limit = 6): AttentionItem[] {
   const now = Date.now();
   const items: (AttentionItem & { score: number })[] = [];

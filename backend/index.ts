@@ -20,7 +20,6 @@ app.use((_req, res, next) => {
   next();
 });
 
-// Refuse cross-site writes: browsers always send Origin on POST/PATCH, and it must be ours.
 app.use('/api', (req, res, next) => {
   if (req.method !== 'GET' && req.headers.origin) {
     const host = req.headers['x-forwarded-host'] ?? req.headers.host;
@@ -42,7 +41,6 @@ app.use('/api', casesRouter);
 app.use('/api', (_req, res) => { res.status(404).json({ error: 'Not found.' }); });
 app.use(errorMiddleware);
 
-// In production the API also serves the built frontend.
 const dist = path.resolve('dist');
 if (existsSync(path.join(dist, 'index.html'))) {
   app.use(express.static(dist, { index: false, maxAge: '1h' }));

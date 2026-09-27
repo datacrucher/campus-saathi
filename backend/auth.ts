@@ -13,7 +13,6 @@ const DEMO_LOGIN = process.env.DEMO_LOGIN !== 'off';
 
 interface UserRow { id: string; email: string; password_hash: string; role: Role; name: string; title: string }
 
-/** Shape the frontend keeps for the signed-in user. */
 export interface SessionUser {
   role: Role;
   id: string;
@@ -24,7 +23,6 @@ export interface SessionUser {
 }
 
 declare global {
-  // eslint-disable-next-line @typescript-eslint/no-namespace
   namespace Express {
     interface Request { user?: SessionUser & { departmentId?: string } }
   }
@@ -50,12 +48,10 @@ function startSession(res: Response, userId: string, remember: boolean) {
     sameSite: 'lax',
     secure: process.env.NODE_ENV === 'production',
     path: '/',
-    // Without "remember me" the cookie ends with the browser session.
     ...(remember ? { maxAge: ttl } : {}),
   });
 }
 
-/** Resolves the session cookie (if any) to req.user. */
 export function loadUser(req: Request, _res: Response, next: NextFunction) {
   const token = req.cookies?.[COOKIE];
   if (typeof token === 'string' && token) {
@@ -81,7 +77,6 @@ export function requireRole(...roles: Role[]) {
   };
 }
 
-// Simple in-memory limiter: 10 failed sign-ins per address per 15 minutes.
 const failures = new Map<string, { count: number; resetAt: number }>();
 function checkRateLimit(key: string) {
   const f = failures.get(key);
@@ -121,7 +116,6 @@ authRouter.post('/login', handler((req, res) => {
   res.json({ user: toSessionUser(row) });
 }));
 
-// Prototype-only shortcut behind the "Demo access" buttons. Disable with DEMO_LOGIN=off.
 const DEMO_ACCOUNTS: Record<Role, string> = { student: 'st-2291047', staff: 'sf-mitchell', admin: 'ad-okafor' };
 authRouter.post('/demo', handler((req, res) => {
   if (!DEMO_LOGIN) throw new HttpError(404, 'Demo sign-in is turned off.');
@@ -139,7 +133,6 @@ authRouter.post('/logout', (req, res) => {
   res.json({ ok: true });
 });
 
-/** Clears expired sessions; called on an interval from index.ts. */
 export function pruneSessions() {
   db.prepare('DELETE FROM sessions WHERE expires_at <= ?').run(Date.now());
 }

@@ -99,7 +99,6 @@ db.exec(`
   CREATE INDEX IF NOT EXISTS activity_case ON activity(case_id, at);
 `);
 
-/** Runs fn inside a transaction, rolling back if it throws. */
 export function tx<T>(fn: () => T): T {
   db.exec('BEGIN IMMEDIATE');
   try {
@@ -112,7 +111,6 @@ export function tx<T>(fn: () => T): T {
   }
 }
 
-/** Password every seeded account uses in this prototype. */
 export const DEMO_PASSWORD = process.env.DEMO_PASSWORD ?? 'CampusSaathi2026';
 
 function seedDirectory() {
@@ -157,14 +155,11 @@ export function seedCases() {
   });
 }
 
-// Keep department details in step with src/data/directory.ts on every start.
 const syncDept = db.prepare('UPDATE departments SET name = ?, team = ?, description = ?, helps_with = ? WHERE id = ?');
 for (const d of DEPARTMENTS) syncDept.run(d.name, d.team, d.description, JSON.stringify(d.helpsWith), d.id);
 
-// Rename carried over from the old product name in saved history.
 db.prepare("UPDATE activity SET actor = REPLACE(actor, 'CampusCare', 'Campus Saathi') WHERE actor LIKE 'CampusCare%'").run();
 
-// Databases created before the rename used the old demo password: move them to the current one.
 const LEGACY_DEMO_PASSWORD = 'CampusCare2026';
 const sample = db.prepare('SELECT password_hash FROM users LIMIT 1').get() as { password_hash: string } | undefined;
 if (sample && !verifyPassword(DEMO_PASSWORD, sample.password_hash) && verifyPassword(LEGACY_DEMO_PASSWORD, sample.password_hash)) {
@@ -172,7 +167,6 @@ if (sample && !verifyPassword(DEMO_PASSWORD, sample.password_hash) && verifyPass
   console.log('Updated demo accounts to the current demo password.');
 }
 
-// First start: create the directory, accounts and sample cases.
 const hasDirectory = db.prepare('SELECT COUNT(*) AS n FROM departments').get() as { n: number };
 if (hasDirectory.n === 0) {
   tx(seedDirectory);

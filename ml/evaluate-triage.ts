@@ -1,9 +1,4 @@
-/**
- * Scores the keyword triage against the labelled queries in ml/dataset/student_queries.csv.
- * Writes ml/dataset/evaluation_results.csv and prints a summary.
- *
- *   npm run dataset:evaluate
- */
+
 import { readFileSync, writeFileSync } from 'node:fs';
 import { triage } from './triage';
 import { departmentById } from '../frontend/src/data/directory';

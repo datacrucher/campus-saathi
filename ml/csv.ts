@@ -1,4 +1,3 @@
-/** Minimal RFC 4180 CSV helpers for the dataset scripts. */
 
 export function toCsv(rows: (string | number | null | undefined)[][]) {
   const esc = (v: string | number | null | undefined) => {

@@ -2,7 +2,6 @@ import { randomBytes, scryptSync, timingSafeEqual } from 'node:crypto';
 
 const KEYLEN = 64;
 
-/** Returns "scrypt$<salt>$<hash>" (hex). */
 export function hashPassword(password: string) {
   const salt = randomBytes(16);
   const hash = scryptSync(password, salt, KEYLEN);

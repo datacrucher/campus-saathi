@@ -1,11 +1,7 @@
 import type { Priority } from '../frontend/src/data/types';
 import { PROCEDURES } from '../frontend/src/data/procedures';
 
-/**
- * Lightweight rule-based triage used by the prototype. Each rule maps a set of
- * phrases to a department, category and a plain-language reason. The best
- * scoring rule wins; the next best departments are offered as alternatives.
- */
+
 
 interface Rule {
   dept: string;
@@ -13,7 +9,6 @@ interface Rule {
   reason: string;
   urgency: Priority;
   terms: string[];
-  /** Things the student can try themselves, without raising a request. */
   steps: string[];
   crisis?: boolean;
   safety?: boolean;
@@ -72,7 +67,6 @@ const RULES: Rule[] = [
 const URGENT_WORDS = ['urgent', 'asap', 'emergency', 'today', 'tonight', 'immediately', 'evict', 'right now', 'getting worse'];
 
 const patternCache = new Map<string, RegExp>();
-/** Short terms must match a whole word or its plural ("fee" shouldn't match "feeling"); longer ones match as a word prefix. */
 function termPattern(term: string) {
   let re = patternCache.get(term);
   if (!re) {
@@ -91,7 +85,6 @@ export interface TriageMatch {
   confidence: number;
   signals: string[];
   steps: string[];
-  /** Set when the request matches a known in-person procedure (see data/procedures.ts). */
   procedureId?: string;
   crisis: boolean;
   safety: boolean;
@@ -113,7 +106,6 @@ export function triage(input: string): TriageResult {
 
   scored.sort((a, b) => b.weight - a.weight);
 
-  // A known office procedure (e.g. NOC) wins unless the text also signals a crisis or safety risk.
   const urgentRisk = scored.some((x) => x.rule.crisis || x.rule.safety);
   const proc = urgentRisk ? undefined : PROCEDURES.find((p) => p.terms.some((t) => termPattern(t).test(text)));
   if (proc) {
@@ -137,7 +129,6 @@ export function triage(input: string): TriageResult {
       reason: `Your request appears related to ${s.rule.reason}.`,
       urgency,
       confidence: Math.min(0.96, 0.58 + s.hits.length * 0.12),
-      // Show the student's own word ("dyslexia"), not the stem it matched ("dyslexi").
       signals: s.hits.map((h) => text.match(new RegExp(`${termPattern(h).source}[\\w’-]*`))?.[0] ?? h),
       steps: s.rule.steps,
       crisis: !!s.rule.crisis,
@@ -157,7 +148,6 @@ export function triage(input: string): TriageResult {
   return { best, alternatives };
 }
 
-/** Builds a short case title from the student's own words. */
 export function titleFrom(text: string, category: string) {
   const first = text.trim().split(/(?<=[.!?])\s/)[0].replace(/[.!?]+$/, '');
   if (first.length >= 12 && first.length <= 70) return first.charAt(0).toUpperCase() + first.slice(1);
